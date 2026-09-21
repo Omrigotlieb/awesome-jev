@@ -1,0 +1,64 @@
+name: audit
+
+# Twice a day: re-check every link, look for new Jev projects, rebuild the README.
+# Commits only when something actually changed.
+on:
+  schedule:
+    - cron: "17 6 * * *"    # 06:17 UTC
+    - cron: "17 18 * * *"   # 18:17 UTC
+  workflow_dispatch:
+    inputs:
+      discover:
+        description: "Also run discovery"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover new Jev projects
+        if: github.event_name == 'schedule' || inputs.discover
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 discover.py --max-new 40
+        continue-on-error: true
+
+      - name: Audit links and Jev evidence
+        run: python3 audit.py --workers 16
+
+      - name: Normalise duplicates
+        run: python3 normalize.py
+
+      - name: Rebuild README
+        run: python3 build_readme.py
+
+      - name: Commit if anything changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- README.md entries.json; then
+            echo "no changes"
+            exit 0
+          fi
+          entries=$(python3 -c "import json;print(len(json.load(open('entries.json'))['entries']))")
+          dead=$(python3 -c "import json;print(sum(1 for e in json.load(open('entries.json'))['entries'] if e['link_status']=='dead'))")
+          new=$(python3 -c "import json;print(sum(1 for e in json.load(open('entries.json'))['entries'] if e['category']=='unreviewed'))")
+          git add README.md entries.json
+          git commit -m "audit: ${entries} entries, ${dead} dead links, ${new} awaiting review"
+          git push
