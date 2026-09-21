@@ -71,6 +71,10 @@
   [
    "other-lists",
    "Other Jev Lists"
+  ],
+  [
+   "unreviewed",
+   "Recently Discovered (unreviewed)"
   ]
  ],
  "entries": [
@@ -262,7 +266,7 @@
    "extra_links": []
   },
   {
-   "name": "pi-jev",
+   "name": "pi-jev (y0usaf)",
    "url": "https://github.com/y0usaf/pi-jev",
    "desc": "Agent safety: adds a measured tool-call gate to the Pi coding agent so risky calls are checked by Jev before execution",
    "category": "verification-guardrails",
@@ -782,7 +786,7 @@
    "extra_links": []
   },
   {
-   "name": "openjev",
+   "name": "openjev (zhihz)",
    "url": "https://github.com/zhihz/openjev",
    "desc": "Open research: independent local preview that answers bilingual probability questions from context, questions, and candidate answers, inspired by TypeSafe Jev",
    "category": "calibration-reproductions",
@@ -830,28 +834,6 @@
     "noul",
     "score"
    ],
-   "extra_links": []
-  },
-  {
-   "name": "TypeSafe AI",
-   "url": "https://typesafe.ai",
-   "desc": "Official product site for System One models and Jev",
-   "category": "official",
-   "repo": null,
-   "lists": 8,
-   "sources": [
-    "AbdelStark_awesome-typesafe",
-    "BYK_awesome-jev",
-    "Eric-Zhou-0302_awesome-jev",
-    "Heman10x-NGU_awesome-jev",
-    "chy4pro_awesome-jev-1",
-    "cobanov_awesome-jev",
-    "hellogumbo_awesome-jev",
-    "kraayenjon_awesome-jev-1"
-   ],
-   "link_status": "unchecked",
-   "evidence": "unchecked",
-   "primitives": [],
    "extra_links": []
   },
   {
@@ -1112,7 +1094,11 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
    "extra_links": [
     [
      "post",
@@ -1175,7 +1161,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-router",
+   "name": "jev-router (gargpratyush)",
    "url": "https://github.com/gargpratyush/jev-router",
    "desc": "Developer tooling: routes Claude Code tasks to the cheapest capable model by asking Jev to choose among candidates",
    "category": "classification-routing",
@@ -1262,7 +1248,8 @@
     "chy4pro_awesome-jev-1",
     "cobanov_awesome-jev",
     "hellogumbo_awesome-jev",
-    "kraayenjon_awesome-jev-1"
+    "kraayenjon_awesome-jev-1",
+    "yibie_awesome-jev"
    ],
    "link_status": "ok",
    "evidence": "strong",
@@ -1275,6 +1262,10 @@
     [
      "site",
      "https://pypi.org/project/jevclient/"
+    ],
+    [
+     "package",
+     "https://pypi.org/project/jevclient"
     ]
    ]
   },
@@ -1821,7 +1812,7 @@
    "extra_links": []
   },
   {
-   "name": "winnow",
+   "name": "winnow (GhalebDweikat)",
    "url": "https://github.com/GhalebDweikat/winnow",
    "desc": "A calibrated context sieve for Claude Code: every tool result is judged by a System One model before it enters context",
    "category": "context-compaction",
@@ -1923,7 +1914,7 @@
   {
    "name": "blink",
    "url": "https://github.com/ellipsis-dev/blink",
-   "desc": "Codebase search powered by Jev from @typesafe-ai",
+   "desc": "Code review: CLI that coding agents run after every change, with Jev checking the diff near-instantly in place of an LLM reviewer",
    "category": "agent-decisions",
    "repo": "ellipsis-dev/blink",
    "lists": 6,
@@ -1933,7 +1924,8 @@
     "chy4pro_awesome-jev-1",
     "cobanov_awesome-jev",
     "hellogumbo_awesome-jev",
-    "kraayenjon_awesome-jev-1"
+    "kraayenjon_awesome-jev-1",
+    "yibie_awesome-jev"
    ],
    "link_status": "ok",
    "evidence": "strong",
@@ -1944,6 +1936,10 @@
     [
      "post",
      "https://x.com/0xLogicrw/status/2100478725393686556"
+    ],
+    [
+     "site",
+     "https://blink.review"
     ]
    ]
   },
@@ -2332,7 +2328,7 @@
    ]
   },
   {
-   "name": "openjev",
+   "name": "openjev (razorback16)",
    "url": "https://github.com/razorback16/openjev",
    "desc": "Independent Jev-compatible server over DiffusionGemma/vLLM; the documented setup requires custom vLLM patches",
    "category": "calibration-reproductions",
@@ -2834,7 +2830,7 @@
    "extra_links": []
   },
   {
-   "name": "Jevbridge",
+   "name": "Jevbridge (gamesonrblx)",
    "url": "https://github.com/gamesonrblx/Jevbridge",
    "desc": "ACP and MCP adapter that bridges TypeSafe Jev with any LLM \u2014 computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode",
    "category": "sdks-integrations",
@@ -2901,7 +2897,7 @@
    "extra_links": []
   },
   {
-   "name": "pi-jev-context",
+   "name": "pi-jev-context (kevinpita)",
    "url": "https://github.com/kevinpita/pi-jev-context",
    "desc": "Opt-in Pi extension that filters older messages from model requests while preserving the original session history",
    "category": "context-compaction",
@@ -3034,7 +3030,7 @@
    "extra_links": []
   },
   {
-   "name": "awesome-jev",
+   "name": "awesome-jev (hellogumbo)",
    "url": "https://github.com/hellogumbo/awesome-jev",
    "desc": "Large community directory with a searchable companion site",
    "category": "other-lists",
@@ -3327,7 +3323,7 @@
    "extra_links": []
   },
   {
-   "name": "hunch",
+   "name": "hunch (carldaws)",
    "url": "https://github.com/carldaws/hunch",
    "desc": "Ruby ecosystem: turns judgment calls into control flow \u2014 `if Hunch.likely?(\"fraudulent\", given: order)` reads like plain Ruby but branches on a typed Jev answer, with `pick` for Choice, `rate` for Score, and graded predicates from `possibly?` to `definitely?`",
    "category": "sdks-integrations",
@@ -3481,7 +3477,7 @@
    ]
   },
   {
-   "name": "Jev Playground",
+   "name": "Jev Playground (hegargarcia)",
    "url": "https://github.com/hegargarcia/jev-playground",
    "desc": "Model evaluation: benchmarks Jev against Luna, Haiku, and Gemini at choosing validated legal moves in explicit-state games, scoring decision quality and consistency across a sequence of moves",
    "category": "evaluation-benchmarking",
@@ -3636,7 +3632,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-cli",
+   "name": "jev-cli (tumf)",
    "url": "https://github.com/tumf/jev-cli",
    "desc": "Developer tooling: small dependency-free CLI for Jev",
    "category": "sdks-integrations",
@@ -3922,7 +3918,7 @@
    "extra_links": []
   },
   {
-   "name": "JevRouter",
+   "name": "JevRouter (BillionsBobby)",
    "url": "https://github.com/BillionsBobby/JevRouter",
    "desc": "Routes agent requests across models, subagents, skills, MCP tools, CLIs, and plugins with Jev Choice decisions; the host filters by availability, permissions, risk, and confirmation before anything executes",
    "category": "verification-guardrails",
@@ -4589,12 +4585,16 @@
    "desc": "Rust client with asynchronous and blocking transports, typed responses, observable retries, and inspectable errors",
    "category": "sdks-integrations",
    "repo": "Twister915/typesafe-ai",
-   "lists": 4,
+   "lists": 8,
    "sources": [
     "AbdelStark_awesome-typesafe",
+    "BYK_awesome-jev",
     "Eric-Zhou-0302_awesome-jev",
     "Heman10x-NGU_awesome-jev",
-    "hellogumbo_awesome-jev"
+    "chy4pro_awesome-jev-1",
+    "cobanov_awesome-jev",
+    "hellogumbo_awesome-jev",
+    "kraayenjon_awesome-jev-1"
    ],
    "link_status": "ok",
    "evidence": "strong",
@@ -4603,7 +4603,12 @@
     "noul",
     "score"
    ],
-   "extra_links": []
+   "extra_links": [
+    [
+     "site",
+     "https://typesafe.ai"
+    ]
+   ]
   },
   {
    "name": "typesafe-ai-rails",
@@ -4951,11 +4956,9 @@
     "Heman10x-NGU_awesome-jev",
     "hellogumbo_awesome-jev"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": []
   },
   {
@@ -4979,7 +4982,7 @@
    "extra_links": []
   },
   {
-   "name": "ask-jev",
+   "name": "ask-jev (omni-)",
    "url": "https://github.com/omni-/ask-jev",
    "desc": "Utilizing Jev, the RLCD-type model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions",
    "category": "agent-decisions",
@@ -5026,7 +5029,7 @@
    ]
   },
   {
-   "name": "AskJev",
+   "name": "AskJev (ranjan2829)",
    "url": "https://github.com/ranjan2829/AskJev",
    "desc": "AskJev \u2014 Jev autopilot for any website + guard on irreversible clicks (TypeSafe System One, not Claude)",
    "category": "browser-computer-use",
@@ -5052,7 +5055,7 @@
    ]
   },
   {
-   "name": "awesome-jev",
+   "name": "awesome-jev (cobanov)",
    "url": "https://github.com/cobanov/awesome-jev",
    "desc": "A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions",
    "category": "other-lists",
@@ -6053,7 +6056,7 @@
    ]
   },
   {
-   "name": "jev",
+   "name": "jev (anilsenay)",
    "url": "https://github.com/anilsenay/jev",
    "desc": "Unofficial Go client for TypeSafe's System One API and its model, Jev",
    "category": "sdks-integrations",
@@ -6739,7 +6742,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-cli",
+   "name": "jev-cli (jtsang4)",
    "url": "https://github.com/jtsang4/jev-cli",
    "desc": "CLI for TypeSafe AI's Jev evaluation model \u2014 typed questions in, structured JSON answers out",
    "category": "evaluation-benchmarking",
@@ -6898,7 +6901,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-eval",
+   "name": "jev-eval (4esv)",
    "url": "https://github.com/4esv/jev-eval",
    "desc": "Independent Jev versus GPT-5.6 Terra comparison on three labeled classification tasks, reporting accuracy, calibration, latency, and cost",
    "category": "classification-routing",
@@ -7073,7 +7076,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-go",
+   "name": "jev-go (Stumble)",
    "url": "https://github.com/Stumble/jev-go",
    "desc": "Go ecosystem: community Go SDK for Jev",
    "category": "sdks-integrations",
@@ -7804,7 +7807,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-scout",
+   "name": "jev-scout (AkashPriyadarshii)",
    "url": "https://github.com/AkashPriyadarshii/jev-scout",
    "desc": "Developer tooling: sub-second zero-hallucination open-source repo and crate scout using TypeSafe Jev speculative fan-out scoring",
    "category": "scoring-ranking",
@@ -8138,7 +8141,7 @@
    ]
   },
   {
-   "name": "jev-tetris",
+   "name": "jev-tetris (MachineLearning-Nerd)",
    "url": "https://github.com/MachineLearning-Nerd/jev-tetris",
    "desc": "A visual TypeSafe demo where Jev chooses verified Tetris placements",
    "category": "games-simulation",
@@ -8360,11 +8363,13 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "choice"
+   ],
    "extra_links": []
   },
   {
-   "name": "Jevbridge",
+   "name": "Jevbridge (tacticocc)",
    "url": "https://github.com/tacticocc/Jevbridge",
    "desc": "Agent bridges: ACP and MCP adapter that exposes Jev typed decisions to Codex, Claude, Grok, and other LLMs",
    "category": "sdks-integrations",
@@ -8452,7 +8457,7 @@
    ]
   },
   {
-   "name": "jevgo",
+   "name": "jevgo (fgn)",
    "url": "https://github.com/fgn/jevgo",
    "desc": "Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation",
    "category": "sdks-integrations",
@@ -8642,7 +8647,7 @@
    "extra_links": []
   },
   {
-   "name": "JevTest",
+   "name": "JevTest (CorieW)",
    "url": "https://github.com/CorieW/JevTest",
    "desc": "Bounded exploratory browser testing with Jev, deterministic assertions, and replayable evidence",
    "category": "browser-computer-use",
@@ -8705,7 +8710,7 @@
    "extra_links": []
   },
   {
-   "name": "jgrep",
+   "name": "jgrep (keltokhy)",
    "url": "https://github.com/keltokhy/jgrep",
    "desc": "Grep, but the pattern is a description. Filters lines by meaning with TypeSafe's Jev decision model: ~200 ms and a thousandth of a cent per line",
    "category": "agent-decisions",
@@ -9487,7 +9492,7 @@
     "kraayenjon_awesome-jev-1"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "mentions",
    "primitives": [],
    "extra_links": []
   },
@@ -9570,7 +9575,7 @@
    "extra_links": []
   },
   {
-   "name": "pi-typesafe",
+   "name": "pi-typesafe (twilwa)",
    "url": "https://github.com/twilwa/pi-typesafe",
    "desc": "Pi coding-agent extension built on the TypeSafe AI System One API (Jev)",
    "category": "agent-decisions",
@@ -10131,7 +10136,7 @@
    ]
   },
   {
-   "name": "sift",
+   "name": "sift (bohutang)",
    "url": "https://github.com/bohutang/sift",
    "desc": "Content labelling: Chrome extension that labels every post in an X timeline - substance, humour, chit-chat, promo, junk, or AI-written - with Jev decisions",
    "category": "classification-routing",
@@ -10148,7 +10153,7 @@
    "extra_links": []
   },
   {
-   "name": "sift",
+   "name": "sift (tylergibbs1)",
    "url": "https://github.com/tylergibbs1/sift",
    "desc": "Chrome extension that re-ranks Google results with TypeSafe Jev and folds away sales pages and SEO filler",
    "category": "browser-computer-use",
@@ -11938,7 +11943,7 @@
    "extra_links": []
   },
   {
-   "name": "clarity-judge",
+   "name": "clarity-judge (TypeSafeAI)",
    "url": "https://github.com/TypeSafeAI/clarity-judge",
    "desc": "Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence",
    "category": "demos-playgrounds",
@@ -12017,7 +12022,7 @@
    "extra_links": []
   },
   {
-   "name": "got-jev",
+   "name": "got-jev (phureewat29)",
    "url": "https://github.com/phureewat29/jev-got",
    "desc": "Jev (TypeSafe AI) PoC through Game of Thrones",
    "category": "demos-playgrounds",
@@ -12199,7 +12204,7 @@
    ]
   },
   {
-   "name": "jev-chess",
+   "name": "jev-chess (hemanth)",
    "url": "https://github.com/hemanth/jev-chess",
    "desc": "Chess moves, evaluations, persona opponents, and game classification with TypeSafe AI System One",
    "category": "games-simulation",
@@ -12506,7 +12511,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-scout",
+   "name": "jev-scout (kierandotai)",
    "url": "https://github.com/kierandotai/jev-scout",
    "desc": "MCP server that scores an agent's every search query, result, and fetched page for relevance and credibility, with session budgets, SSRF-guarded fetching, and a live decision dashboard",
    "category": "verification-guardrails",
@@ -12562,7 +12567,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-tetris",
+   "name": "jev-tetris (thelau)",
    "url": "https://github.com/thelau/jev-tetris",
    "desc": "Tetris where deterministic code enumerates every reachable placement, including tucks and spins, and writes each one as an English sentence; Jev returns a probability for all of them across five Choice questions, and the highest-weighted option is played while the whole distribution is drawn on the board. Ships a shuffled-probability control and a 23-line regex baseline over the same sentences, which outscores the model",
    "category": "games-simulation",
@@ -12678,7 +12683,7 @@
    "extra_links": []
   },
   {
-   "name": "jev_local",
+   "name": "jev_local (Argos1111)",
    "url": "https://github.com/Argos1111/jev_local",
    "desc": "Replicating Jev with a local LLM",
    "category": "evaluation-benchmarking",
@@ -13073,7 +13078,7 @@
    "extra_links": []
   },
   {
-   "name": "TypeAR",
+   "name": "TypeAR (TypeAR-AI)",
    "url": "https://github.com/TypeAR-AI/TypeAR",
    "desc": "Type-safe one-decision-per-token decoding engine for autoregressive LLMs, inspired by Jev",
    "category": "evaluation-benchmarking",
@@ -13084,7 +13089,7 @@
     "hellogumbo_awesome-jev"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "none",
    "primitives": [
     "boolean",
     "choice",
@@ -13168,7 +13173,7 @@
    "extra_links": []
   },
   {
-   "name": "typesafe-ui",
+   "name": "typesafe-ui (TypeSafeAI)",
    "url": "https://github.com/TypeSafeAI/typesafe-ui",
    "desc": "Shadcn-style reusable components and blocks for using TypeSafe AI",
    "category": "sdks-integrations",
@@ -13505,6 +13510,7 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
+    "boolean",
     "choice",
     "noul",
     "score"
@@ -13680,21 +13686,6 @@
    "extra_links": []
   },
   {
-   "name": "Blink",
-   "url": "https://blink.review",
-   "desc": "Code review: CLI that coding agents run after every change, with Jev checking the diff near-instantly in place of an LLM reviewer",
-   "category": "verification-guardrails",
-   "repo": null,
-   "lists": 1,
-   "sources": [
-    "yibie_awesome-jev"
-   ],
-   "link_status": "unchecked",
-   "evidence": "unchecked",
-   "primitives": [],
-   "extra_links": []
-  },
-  {
    "name": "Can we have Jev in Devin?",
    "url": "https://reddit.com/r/DevinAI/comments/1wjtmwi/can_we_have_jev_in_devin",
    "desc": "Reddit: users of another coding agent ask for a Jev decision layer inside their tool, a signal that typed decisions are becoming an expected feature",
@@ -13742,7 +13733,7 @@
     "hellogumbo_awesome-jev"
    ],
    "link_status": "ok",
-   "evidence": "none",
+   "evidence": "strong",
    "primitives": [],
    "extra_links": []
   },
@@ -13762,7 +13753,7 @@
    "extra_links": []
   },
   {
-   "name": "clarity-judge",
+   "name": "clarity-judge (BunsDev)",
    "url": "https://github.com/BunsDev/clarity-judge",
    "desc": "Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence",
    "category": "demos-playgrounds",
@@ -14113,7 +14104,7 @@
    ]
   },
   {
-   "name": "got-jev",
+   "name": "got-jev (phureewat29)",
    "url": "https://github.com/phureewat29/got-jev",
    "desc": "Jev (TypeSafe AI) PoC through Game of Thrones",
    "category": "demos-playgrounds",
@@ -14217,7 +14208,7 @@
    "extra_links": []
   },
   {
-   "name": "Hunch",
+   "name": "Hunch (Kelbie)",
    "url": "https://github.com/Kelbie/hunch",
    "desc": "Code review: plain-English rules that Jev checks code against, locally or on every pull request, with Jev picking one label per finding",
    "category": "verification-guardrails",
@@ -14385,7 +14376,7 @@
    "extra_links": []
   },
   {
-   "name": "Jev",
+   "name": "Jev (cobusgreyling)",
    "url": "https://github.com/cobusgreyling/Jev",
    "desc": "Unofficial TypeSafe Jev showcase \u2014 System One decisions, not chat",
    "category": "demos-playgrounds",
@@ -14833,7 +14824,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-eval",
+   "name": "jev-eval (Shogo-nfrealmusic)",
    "url": "https://github.com/Shogo-nfrealmusic/jev-eval",
    "desc": "Third-party check: compares Jev against GPT-4o-mini and Claude Sonnet 4.5 under identical conditions on the same judgment task",
    "category": "evaluation-benchmarking",
@@ -14881,6 +14872,7 @@
    "primitives": [
     "boolean",
     "choice",
+    "noul",
     "score"
    ],
    "extra_links": [
@@ -14975,7 +14967,7 @@
    ]
   },
   {
-   "name": "jev-local",
+   "name": "jev-local (us)",
    "url": "https://github.com/us/jev-local",
    "desc": "Local reproduction: Jev-compatible `POST /v1/systemone` server answering typed `Choice`/`Score`/`Noul` questions with confidence from open weights, verified as an official-SDK drop-in with temperature-fit calibration (set3 n=1316, 0.83 overall)",
    "category": "calibration-reproductions",
@@ -14994,7 +14986,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-mail",
+   "name": "jev-mail (muhammedilyasy)",
    "url": "https://github.com/muhammedilyasy/jev-mail",
    "desc": "Chrome extension that triages Gmail with TypeSafe's Jev model: category, priority, spam % and reply % on every email",
    "category": "browser-computer-use",
@@ -15228,7 +15220,7 @@
    ]
   },
   {
-   "name": "jev-router",
+   "name": "jev-router (rajdhakad9826)",
    "url": "https://github.com/rajdhakad9826/jev-router",
    "desc": "Cost-aware LLM router that picks the cheapest model capable of handling a query, using TypeSafe's Jev for fast classification instead of an LLM call",
    "category": "classification-routing",
@@ -15239,7 +15231,10 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "boolean",
+    "choice"
+   ],
    "extra_links": []
   },
   {
@@ -15255,7 +15250,8 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "noul"
+    "noul",
+    "score"
    ],
    "extra_links": []
   },
@@ -15272,6 +15268,7 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
+    "boolean",
     "choice",
     "noul",
     "score"
@@ -15589,7 +15586,7 @@
    ]
   },
   {
-   "name": "jevchess",
+   "name": "jevchess (choxos)",
    "url": "https://github.com/choxos/jevchess",
    "desc": "Jev, TypeSafe's System One model, plays chess against any OpenRouter LLM, Stockfish and you. One-page web app with live moves, Jev's move probabilities, saved games and win rates",
    "category": "games-simulation",
@@ -15610,21 +15607,6 @@
      "https://jevchess.xera.ac"
     ]
    ]
-  },
-  {
-   "name": "jevclient",
-   "url": "https://pypi.org/project/jevclient",
-   "desc": "Python ecosystem: async client for Jev published on PyPI",
-   "category": "sdks-integrations",
-   "repo": null,
-   "lists": 1,
-   "sources": [
-    "yibie_awesome-jev"
-   ],
-   "link_status": "unchecked",
-   "evidence": "unchecked",
-   "primitives": [],
-   "extra_links": []
   },
   {
    "name": "JevDroid",
@@ -15691,7 +15673,7 @@
    "extra_links": []
   },
   {
-   "name": "jevmail",
+   "name": "jevmail (fazlerocks)",
    "url": "https://github.com/fazlerocks/jevmail",
    "desc": "Open-source AI email triage for Gmail. Sorts your inbox into Needs reply, Updates, Promos, Sales and Spam with Jev, TypeSafe AI's decision model, via Vercel AI Gateway. Read-only, runs locally, 1,000 emails in about a minute for 3 cents",
    "category": "sdks-integrations",
@@ -15710,7 +15692,7 @@
    "extra_links": []
   },
   {
-   "name": "jevplayground",
+   "name": "jevplayground (terryds)",
    "url": "https://github.com/terryds/jevplayground",
    "desc": "Browser-only playground for Jev (TypeSafe AI's decision model) via Vercel AI Gateway",
    "category": "browser-computer-use",
@@ -15791,7 +15773,7 @@
    "extra_links": []
   },
   {
-   "name": "jevtest",
+   "name": "jevtest (realZachi)",
    "url": "https://github.com/realZachi/jevtest",
    "desc": "Semantic test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in plain English, get calibrated probabilities back",
    "category": "calibration-reproductions",
@@ -15814,7 +15796,7 @@
    ]
   },
   {
-   "name": "jgrep",
+   "name": "jgrep (kyu1204)",
    "url": "https://github.com/kyu1204/jgrep",
    "desc": "Semantic grep CLI (`npm install -g jevgrep`) that splits files or git diff hunks into 5\u201360 line chunks, packs several chunks into one request with a Noul question per chunk, and prints `file:line` hits above a probability threshold with grep-style exit codes, so a diff can be linted in CI against rules written in English; ships an interactive `jgrep init` and an opt-in Claude Code and Codex skill; chunks are judged in isolation so cross-file questions do not match, and every chunk's text is sent to TypeSafe's API",
    "category": "verification-guardrails",
@@ -16075,7 +16057,7 @@
    "extra_links": []
   },
   {
-   "name": "OpenJev",
+   "name": "OpenJev (TheoLeeCJ)",
    "url": "https://github.com/TheoLeeCJ/openjev",
    "desc": "Independent open-model research baseline for direct typed option scoring; it reproduces the interface pattern, not Jev's undisclosed model or training",
    "category": "scoring-ranking",
@@ -16092,7 +16074,7 @@
    "extra_links": []
   },
   {
-   "name": "OpenJev",
+   "name": "OpenJev (xingwudao)",
    "url": "https://github.com/xingwudao/OpenJev",
    "desc": "OpenJev: an independent Jev-inspired System One decision API based on TypeSafe.ai concepts. Choice, score and noul primitives, local mock server, Python and TypeScript SDKs. Real inference planned; not affiliated with TypeSafe AI",
    "category": "official",
@@ -16203,7 +16185,7 @@
    "extra_links": []
   },
   {
-   "name": "pi-jev",
+   "name": "pi-jev (madeye)",
    "url": "https://github.com/madeye/pi-jev",
    "desc": "Jev-assisted file retrieval and request caching for faster Pi workflows",
    "category": "evaluation-benchmarking",
@@ -16239,7 +16221,7 @@
    "extra_links": []
   },
   {
-   "name": "pi-jev-context",
+   "name": "pi-jev-context (Nyarlathoteppppp)",
    "url": "https://github.com/Nyarlathoteppppp/pi-jev-context",
    "desc": "Pi extension that shortens long tool output before it enters the context, so no cached prompt prefix is invalidated: Jev gives every block of the output a probability that the current request needs it, only blocks it is confident are unneeded are hidden, code guarantees that failure lines, request terms and the top-ranked blocks survive, kept lines stay verbatim, and a `context_recall` tool returns the original; ships [experiment reports](https://github.com/Nyarlathoteppppp/pi-jev-context/tree/main/docs/experiments) and a [findings log](https://github.com/Nyarlathoteppppp/pi-jev-context/blob/main/docs/FINDINGS.md) with pre-registered synthetic sets and weakly labelled replays of real sessions, including a negative result (Jev-judged pruning of old context dropped information needed later, so that part stays shadow-only); experimental, shadow mode by default, and the real-session replays come from one user's sessions",
    "category": "context-compaction",
@@ -16272,7 +16254,7 @@
    "extra_links": []
   },
   {
-   "name": "pi-typesafe",
+   "name": "pi-typesafe (DevMortimer)",
    "url": "https://github.com/DevMortimer/pi-typesafe",
    "desc": "Pi extension and library that gives the agent and other extensions one consented, key-managed TypeSafe client with a batched `typesafe_evaluate` tool and offline-testable transport; requests are billable and opt-in per user",
    "category": "sdks-integrations",
@@ -16306,7 +16288,7 @@
    "extra_links": []
   },
   {
-   "name": "pijev",
+   "name": "pijev (tonyzdev)",
    "url": "https://github.com/tonyzdev/pijev",
    "desc": "PiJev: a terminal coding agent with Jev in the loop \u2014 Jev ranks the repository's files before the first call, picks skills and triages failures; your coding model writes the code. Built on Pi",
    "category": "classification-routing",
@@ -16714,7 +16696,7 @@
    "extra_links": []
   },
   {
-   "name": "TypeAR",
+   "name": "TypeAR (zmtomorrow)",
    "url": "https://github.com/zmtomorrow/TypeAR",
    "desc": "Type-safe one-decision-per-token decoding engine for autoregressive LLMs, inspired by Jev",
    "category": "evaluation-benchmarking",
@@ -16724,7 +16706,7 @@
     "Heman10x-NGU_awesome-jev"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "none",
    "primitives": [
     "boolean",
     "choice",
@@ -16949,7 +16931,7 @@
    "extra_links": []
   },
   {
-   "name": "typesafe-ui",
+   "name": "typesafe-ui (BunsDev)",
    "url": "https://github.com/BunsDev/typesafe-ui",
    "desc": "Shadcn-style reusable components and blocks for using TypeSafe AI",
    "category": "sdks-integrations",
@@ -17051,7 +17033,7 @@
    "extra_links": []
   },
   {
-   "name": "Winnow",
+   "name": "Winnow (ThinkyMiner)",
    "url": "https://github.com/ThinkyMiner/Winnow",
    "desc": "Know before you click. A Chrome extension that reads articles and YouTube videos ahead of you and says read, skim, save, or skip \u2014 with a confidence, tuned to your goals. Open source, MV3, powered by Jev",
    "category": "browser-computer-use",
@@ -17135,7 +17117,7 @@
    "extra_links": []
   },
   {
-   "name": "\u6df1\u5165\u89e3\u8bfb Jev \u6a21\u578b\uff1a\u6beb\u79d2\u7ea7\u5224\u5b9a\u4e0e\u5de5\u7a0b\u8fb9\u754c",
+   "name": "\u6df1\u5165\u89e3\u8bfb Jev \u6a21\u578b\uff1a\u6beb\u79d2\u7ea7\u5224\u5b9a\u4e0e\u5de5\u7a0b\u8fb9\u754c (kuhung)",
    "url": "https://github.com/kuhung/understanding-jev",
    "desc": "Chinese deep-dive: examines Jev's millisecond judgments and, more usefully, where its engineering boundaries lie",
    "category": "articles-threads",

@@ -41,14 +41,31 @@ Not included: pure opinion with no artifact, launch commentary with nothing runn
 
 If an entry is dead, mis-attributed, duplicated, or does not actually use Jev, **open a PR that deletes it**. A removal PR is as welcome as an addition and will be merged on the same evidence standard.
 
-## Re-running the audit
+## The pipeline
+
+Four scripts, run in this order. A [GitHub Action](.github/workflows/audit.yml) runs all of them twice a day and commits only when the output changed, so in normal use you never run them by hand.
 
 ```bash
-python3 audit.py          # re-checks every repository, updates entries.json
-python3 build_readme.py   # regenerates README.md
+GITHUB_TOKEN=... python3 discover.py   # search GitHub for Jev projects not yet listed
+python3 audit.py                       # re-check every link and Jev reference
+python3 normalize.py                   # merge duplicate URLs, disambiguate clashing names
+python3 build_readme.py                # regenerate README.md
 ```
 
-`audit.py` fetches each repository's README from `raw.githubusercontent.com`. It needs no API token and no authentication.
+- **`discover.py`** needs a GitHub token because it uses the search API. Everything it finds lands in the `unreviewed` category, never in a curated one.
+- **`audit.py`** needs no token at all — it reads `raw.githubusercontent.com` directly. A repository is only marked dead when GitHub answers cleanly that nothing is there; a network failure leaves the previous status alone, so a flaky run cannot bury a live project.
+- **`normalize.py`** is safe to re-run; it is idempotent.
+- **`build_readme.py`** is the only thing that writes `README.md`.
+
+## Promoting an unreviewed entry
+
+Entries in **Recently Discovered (unreviewed)** are search hits, not curated entries. To promote one:
+
+1. Check the repository actually calls the Jev API.
+2. Write a real one-sentence description, replacing the auto-generated one.
+3. Change its `category` to the right one and drop the `discovered` field.
+
+If it does not belong, delete the entry. That is the more common outcome and it is a good contribution.
 
 ## AI-assisted submissions
 

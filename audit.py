@@ -12,7 +12,7 @@ Usage:  python3 audit.py [--workers 24]
 Then:   python3 build_readme.py
 """
 from __future__ import annotations
-import json, re, sys, pathlib, urllib.request, urllib.error
+import json, re, sys, time, pathlib, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -21,20 +21,32 @@ FILES = ("README.md", "readme.md", "README.MD", "Readme.md", "README.rst", "READ
 UA = {"User-Agent": "awesome-jev-audit/1.0"}
 
 
-def fetch_readme(repo: str) -> str | None:
-    for br in BRANCHES:
-        for fn in FILES:
-            url = f"https://raw.githubusercontent.com/{repo}/{br}/{fn}"
-            try:
-                req = urllib.request.Request(url, headers=UA)
-                with urllib.request.urlopen(req, timeout=15) as r:
-                    if r.status == 200:
-                        return r.read().decode("utf-8", "ignore")
-            except urllib.error.HTTPError:
-                continue
-            except Exception:
-                continue
-    return None
+def fetch_readme(repo: str) -> tuple[str | None, bool]:
+    """Return (readme_text, network_trouble).
+
+    network_trouble is True when no README was found AND at least one attempt failed
+    for a reason other than a clean HTTP 404. A transient network problem must not be
+    allowed to mark a live repository dead — the caller keeps the previous status.
+    """
+    trouble = False
+    for attempt in (1, 2):
+        for br in BRANCHES:
+            for fn in FILES:
+                url = f"https://raw.githubusercontent.com/{repo}/{br}/{fn}"
+                try:
+                    req = urllib.request.Request(url, headers=UA)
+                    with urllib.request.urlopen(req, timeout=20) as r:
+                        if r.status == 200:
+                            return r.read().decode("utf-8", "ignore"), False
+                except urllib.error.HTTPError as e:
+                    if e.code not in (404, 400):
+                        trouble = True
+                except Exception:
+                    trouble = True
+        if not trouble:
+            break
+        time.sleep(2)
+    return None, trouble
 
 
 def classify(text: str) -> tuple[str, list[str]]:
@@ -64,9 +76,10 @@ def main() -> None:
     results: dict[str, tuple[str, str, list[str]]] = {}
 
     def work(repo: str) -> None:
-        text = fetch_readme(repo)
+        text, trouble = fetch_readme(repo)
         if text is None:
-            results[repo] = ("dead", "unchecked", [])
+            # Only call it dead when GitHub answered cleanly that nothing is there.
+            results[repo] = ("unknown" if trouble else "dead", "unchecked", [])
         else:
             ev, prims = classify(text)
             results[repo] = ("ok", ev, prims)
@@ -75,10 +88,14 @@ def main() -> None:
         list(pool.map(work, repos))
 
     changed = 0
+    skipped: list[str] = []
     for e in data["entries"]:
         if not e["repo"]:
             continue
         status, ev, prims = results[e["repo"]]
+        if status == "unknown":
+            skipped.append(e["repo"])
+            continue
         if (e["link_status"], e["evidence"]) != (status, ev):
             changed += 1
             print(f"  changed  {e['repo']:50} {e['link_status']}/{e['evidence']} -> {status}/{ev}")
@@ -89,6 +106,8 @@ def main() -> None:
     (ROOT / "entries.json").write_text(json.dumps(data, indent=1))
 
     dead = sum(1 for e in data["entries"] if e["link_status"] == "dead")
+    if skipped:
+        print(f"\n{len(skipped)} repos left unchanged (network trouble, not treated as dead)")
     print(f"\ndone: {len(repos)} repos, {dead} dead, {changed} changed. Now run: python3 build_readme.py")
 
 

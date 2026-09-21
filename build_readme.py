@@ -58,6 +58,22 @@ GALLERY = [
   "The largest community directory of Jev builds (295 builds / 91 guides at time of capture) — a primary source for this list."),
 ]
 
+
+STARTERS = [
+ ("https://docs.typesafe.ai/introduction/quickstart", "Read this first — the three primitives and a working request in about five minutes."),
+ ("https://github.com/typesafe-ai/system-one-adapter-python", "Official Python adapter. The shortest path from a typed question to an answer."),
+ ("https://github.com/nexibeo/jev-cookbook", "Fifteen runnable Node recipes — ticket routing, document filing, transaction categorisation, Gmail labelling — each sending low confidence to human review."),
+ ("https://github.com/gargpratyush/jev-router", "The canonical routing example: pick the cheapest capable model per task with one Choice."),
+ ("https://github.com/shiftynick/jev-axi", "The canonical guardrail example: score every shell command for destructiveness before it runs, settling routine commands locally."),
+ ("https://github.com/hotchpotch/jev-reranker", "The canonical scoring example: rerank retrieved documents by judged relevance instead of embedding distance."),
+ ("https://github.com/browser-use/jev-ultrafast", "What the pattern looks like at speed — Jev picks the next browser action, a language model is called only when text must be typed."),
+ ("https://github.com/luantak/is-malicious", "A real security use case: typed checks over source and build files, escalating suspicious chunks before execution."),
+ ("https://github.com/DanRWilloughby/snifftest", "One of the few entries with measured numbers in its own README — 182 ms median, and a false-positive rate it states plainly."),
+ ("https://github.com/zhihz/openjev", "If you want to understand the architecture rather than call it: an open reproduction of the approach."),
+ ("https://github.com/yusukebe/hono-jev-router", "A small, readable integration — worth reading as a template for wiring Jev into your own framework."),
+ ("https://jev-pacman.ephraimduncan.com", "Not useful, but the clearest explanation of the model that exists: watch it decide, with probabilities, at every junction."),
+]
+
 def anchor(t):
     a = t.lower()
     for ch in "&/,.:()": a = a.replace(ch, "")
@@ -134,6 +150,7 @@ def main():
     w("| Cross-list agreement shown | no | **yes** — how many independent lists carry each entry |")
     w(f"| Screenshots | none | **{len(GALLERY)}**, captured live |")
     w("| Machine-readable data | rarely | [`entries.json`](entries.json) |")
+    w("| Kept current | manual, sporadic | **automated** — re-audited [twice a day](.github/workflows/audit.yml) |")
     w("")
     w("Everything here is built on the work of the lists in [Other Jev Lists](#other-jev-lists). "
       "This is a merge and an audit of their collective work, not a replacement for it.")
@@ -158,13 +175,20 @@ def main():
     # --- legend / method ---
     w("## How this list is verified")
     w("")
-    w(f"Last audit: **{META['audited']}**. For every GitHub entry the audit fetches the repository's README directly and records:")
+    w(f"Last audit: **{META['audited']}**. A [GitHub Action](.github/workflows/audit.yml) re-runs the whole thing "
+      "twice a day and commits the result only when something moved, so the numbers above are never more than twelve hours stale. "
+      "For every GitHub entry the audit fetches the repository's README directly and records:")
     w("")
     w("- **Link status** — does the repository still resolve, or has it been deleted or made private.")
     w("- **Jev evidence** — does the README name Jev / TypeSafe, reference `api.typesafe.ai`, or show a System One call. "
       "A repo can use Jev deep in its code and say nothing in its README, so a missing marker means *unevidenced*, not *false*.")
     w("- **Cross-list agreement** — how many of the independent source lists carry the entry. "
       "One list carrying something is a lead; seven carrying it is a signal.")
+    w("")
+    pending = "[Recently Discovered](#recently-discovered-unreviewed)" if by.get("unreviewed") else "a separate unreviewed section"
+    w(f"The same job runs [`discover.py`](discover.py), which searches GitHub for Jev projects the list does not have yet "
+      f"and files them under {pending} — never straight into a curated category. "
+      "Everything in this pipeline is in the repository and runs with no API key beyond GitHub's own.")
     w("")
     w("Markers used below:")
     w("")
@@ -183,6 +207,45 @@ def main():
       "actually calls the API, that some runnable check exists, that published numbers trace to a source, and that a license is present.")
     w("")
 
+    # --- start here ---
+    idx = {e["url"]: e for e in E}
+    w("## Start here")
+    w("")
+    w("Twelve entries, in order, for someone who has not written a line of Jev yet. "
+      "Everything else in this list is a variation on what these show.")
+    w("")
+    for url, why in STARTERS:
+        e = idx.get(url)
+        if not e:
+            continue
+        w(f"1. **[{e['name']}]({url})** — {why}")
+    w("")
+
+    # --- by the numbers ---
+    prim = collections.Counter()
+    for e in E:
+        if e["evidence"] == "strong" and "noul" in (e.get("primitives") or []):
+            prim["noul"] += 1
+    ev = collections.Counter(e["evidence"] for e in E)
+    w("## By the numbers")
+    w("")
+    w("| | |")
+    w("| --- | --- |")
+    w(f"| Entries | {n} |")
+    w(f"| GitHub repositories | {sum(1 for e in E if e['repo'])} |")
+    w(f"| Live links | {ok} |")
+    w(f"| Dead links | {len(dead)} |")
+    w(f"| Repos with a clear Jev reference | {ev['strong']} |")
+    w(f"| Repos live but unevidenced | {ev['none'] + ev['mentions']} |")
+    w(f"| Carried by 7+ independent lists | {sum(1 for e in E if e['lists'] >= 7)} |")
+    w(f"| Carried by exactly one list | {sum(1 for e in E if e['lists'] == 1)} |")
+    w(f"| Awaiting review (auto-discovered) | {len(by.get('unreviewed', []))} |")
+    w(f"| Categories | {sum(1 for k, _ in CATS if by.get(k))} |")
+    w("")
+    w("Entries carried by a single list are the least corroborated and the most likely to be noise. "
+      "They are kept because a good project only ever appears once before it appears twice.")
+    w("")
+
     # --- coverage ---
     w("## Coverage")
     w("")
@@ -197,6 +260,13 @@ def main():
         if not items: continue
         w(f"### {t}")
         w("")
+        if k == "unreviewed":
+            w("> [!NOTE]")
+            w("> Found automatically by [`discover.py`](discover.py) searching GitHub, **not yet reviewed by a human**. "
+              "A search hit means the repository mentions Jev somewhere — it does not mean the project works, or that the "
+              "one-line description below is any good. Entries graduate out of this section when someone writes a proper "
+              "description and moves them into a real category; they get deleted when they turn out not to belong.")
+            w("")
         for e in items: w(line(e))
         w("")
 
