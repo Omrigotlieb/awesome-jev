@@ -613,7 +613,7 @@
    "extra_links": []
   },
   {
-   "name": "Jev Search",
+   "name": "Jev Search (superagents-lab)",
    "url": "https://github.com/superagents-lab/jev-search",
    "desc": "Web search: uses Jev Noul judgments on result titles and snippets to rank Search1API results by relevance, with application code merging duplicate URLs and grouping lower-scoring matches separately",
    "category": "scoring-ranking",
@@ -3942,7 +3942,7 @@
    "extra_links": []
   },
   {
-   "name": "kev",
+   "name": "kev (jaredpalmer)",
    "url": "https://github.com/jaredpalmer/kev",
    "desc": "Trainable replica: a tiny Jev-like model on top of Qwen2.5-0.5B that trains and runs on a MacBook, shipped with its own research runs and evaluation scripts",
    "category": "calibration-reproductions",
@@ -8497,7 +8497,7 @@
    "extra_links": []
   },
   {
-   "name": "jevify",
+   "name": "jevify (altryne)",
    "url": "https://github.com/altryne/jevify",
    "desc": "An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments",
    "category": "evaluation-benchmarking",
@@ -14753,7 +14753,7 @@
    "extra_links": []
   },
   {
-   "name": "jev-desktop",
+   "name": "jev-desktop (yikangy873-gif)",
    "url": "https://github.com/yikangy873-gif/jev-desktop",
    "desc": "Computer use: supplies Jev action selection inside Codex Computer Use, choosing among desktop actions rather than asking a language model at every step",
    "category": "agent-decisions",
@@ -15847,6 +15847,7 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
+    "boolean",
     "choice",
     "noul",
     "score"
@@ -18320,6 +18321,7 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
+    "boolean",
     "choice",
     "noul",
     "score"
@@ -18533,7 +18535,10 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "boolean"
+    "boolean",
+    "choice",
+    "noul",
+    "score"
    ],
    "extra_links": [],
    "discovered": "2026-09-21"
@@ -19795,7 +19800,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
+   "evidence": "strong",
    "primitives": [
     "boolean",
     "choice",
@@ -20117,7 +20122,7 @@
    "discovered": "2026-09-23"
   },
   {
-   "name": "Open-Jev",
+   "name": "Open-Jev (Zefan-Cai)",
    "url": "https://github.com/Zefan-Cai/Open-Jev",
    "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -20195,7 +20200,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
+   "evidence": "strong",
    "primitives": [
     "choice",
     "noul",
@@ -20267,11 +20272,9 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "none",
+   "evidence": "strong",
    "primitives": [
-    "choice",
-    "noul",
-    "score"
+    "noul"
    ],
    "extra_links": [],
    "discovered": "2026-09-23"
@@ -20811,8 +20814,6 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "choice",
-    "noul",
     "score"
    ],
    "extra_links": [],
@@ -20824,6 +20825,755 @@
    "desc": "Convert legacy chat completion API request to Typesafe jev API *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
    "repo": "Chandler-Sun/chat2jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "webctl",
+   "url": "https://github.com/dorkitude/webctl",
+   "desc": "Smart web search CLI for agents, backed by Jev. Saves a lot of tokens *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "dorkitude/webctl",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jevals",
+   "url": "https://github.com/openlayer-ai/jevals",
+   "desc": "Agent evals and guardrails as Jev decisions: one request per trace, a fraction of a cent, fast enough for the agent loop. Runs locally with Kev or Laya *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "openlayer-ai/jevals",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "Intent-Router",
+   "url": "https://github.com/angel291592/Intent-Router",
+   "desc": "Intent compiler for AI agents \u2014 converges vague requests into typed IntentSpec contracts (probe, ask, or halt before routing), the input layer for routers and typed-decision models like Jev & Laya *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "angel291592/Intent-Router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jevify (fidecastro)",
+   "url": "https://github.com/fidecastro/jevify",
+   "desc": "Supersimple way to serve LLMs as a Jev-like endpoint *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "fidecastro/jevify",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jevk5",
+   "url": "https://github.com/allebee/jevk5",
+   "desc": "JevK5: open-weight alternative to TypeSafe Jev. Typed decisions with probabilities in one forward pass; Apache-2.0 weights and code *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "allebee/jevk5",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "OpenJev (zhangcy122)",
+   "url": "https://github.com/zhangcy122/OpenJev",
+   "desc": "OpenJev: Open-source alternative to TypeSafe Jev. Typed probabilistic decision API (Choice, Noul, Score) powered by open LLMs & constrained logprob calibration *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zhangcy122/OpenJev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "laya-jev-GraphRAG",
+   "url": "https://github.com/bodepudimuneendra-netizen/laya-jev-GraphRAG",
+   "desc": "Agentic GraphRAG engine using swappable System One decision models (local Laya / cloud Jev). Features a complete 4-phase pipeline (Ingestion, Pre-Retrieval, Traversal, Post-Retrieval) and evaluation across Neo4j, Memgraph, Apache AGE, and K\u00f9zu driven by a custom A* traversal algorithm *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "bodepudimuneendra-netizen/laya-jev-GraphRAG",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jev-agent-design-with-topk-logits-choices",
+   "url": "https://github.com/6Mikao9/jev-agent-design-with-topk-logits-choices",
+   "desc": "Research design for a Jev-native agent system: tool integration, speculative parameter proposals, external helper logits Top-k proposals with Jev-controlled fallback ,decision-aware hierarchical memory, and dependency-aware replanning.Feature:Jev naturallanguage conversation prototype using external helper logits and dynamic Top-k token selection *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "6Mikao9/jev-agent-design-with-topk-logits-choices",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "stuntd",
+   "url": "https://github.com/bladedevoff/stuntd",
+   "desc": "Local proxy that learns your app's typed LLM decisions and answers them with a Laya head. Jev and OpenAI compatible *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "bladedevoff/stuntd",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "a3m-router",
+   "url": "https://github.com/Das-rebel/a3m-router",
+   "desc": "\u26a1 Adaptive multi-model LLM router \u2014 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Das-rebel/a3m-router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jev-test-filter",
+   "url": "https://github.com/mizchi/jev-test-filter",
+   "desc": "Score every test against a git diff with Jev, and emit the filter arguments vitest, node:test, Playwright, cargo test and go test already understand *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "mizchi/jev-test-filter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "snap",
+   "url": "https://github.com/emnlmn/snap",
+   "desc": "Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic, Jev-compatible. Not affiliated with typesafe.ai *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "emnlmn/snap",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jevernetes",
+   "url": "https://github.com/sunil-sadasivan/jevernetes",
+   "desc": "Live Kubernetes log analysis, contextual investigation, and agent handoff powered by Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "sunil-sadasivan/jevernetes",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jevper",
+   "url": "https://github.com/zhulinchng/jevper",
+   "desc": "Jev-shaped (TypeSafe System One) classification wrapper over OpenAI-like clients: probabilities and confidence instead of prose *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zhulinchng/jevper",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "laravel-jev",
+   "url": "https://github.com/i-priyanshuverma/laravel-jev",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "i-priyanshuverma/laravel-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "go-jev",
+   "url": "https://github.com/mattn/go-jev",
+   "desc": "Go SDK and CLI for TypeSafe Jev: typed decisions (yes/no, choice, score) from a model *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "mattn/go-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "nl-logic-interpreter",
+   "url": "https://github.com/narphorium/nl-logic-interpreter",
+   "desc": "A step-through logic interpreter for natural-language facts and rules, unified with Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "narphorium/nl-logic-interpreter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "gut",
+   "url": "https://github.com/vinibrsl/gut",
+   "desc": "Use LLM judgment in regular Elixir control flow *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "vinibrsl/gut",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "blackrose",
+   "url": "https://github.com/Dino-Kupinic/blackrose",
+   "desc": "The decision layer for LLM apps *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Dino-Kupinic/blackrose",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "Kev (arjun988)",
+   "url": "https://github.com/arjun988/Kev",
+   "desc": "Open-source System One decision engine. Typed choice / score / noul with calibrated probabilities. Self-host with Ollama or any OpenAI-compatible model. Apache-2.0 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "arjun988/Kev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "book-aurora",
+   "url": "https://github.com/dani1005/book-aurora",
+   "desc": "Jev reads a whole novel in seconds. Every passage becomes a row of colour *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "dani1005/book-aurora",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "Visual-Jev",
+   "url": "https://github.com/guanxuyu-sv/Visual-Jev",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "guanxuyu-sv/Visual-Jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jev-compaction",
+   "url": "https://github.com/Waxmell114514/jev-compaction",
+   "desc": "A context compactor that can only score, never write \u2014 so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Waxmell114514/jev-compaction",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jev-bush",
+   "url": "https://github.com/artalis-io/jev-bush",
+   "desc": "Jev Bush is a CPU-first probabilistic decision engine for bounded DiffusionGemma decisions. Please clap *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "artalis-io/jev-bush",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "typesafe-ai-java",
+   "url": "https://github.com/jamilxt/typesafe-ai-java",
+   "desc": "Community-maintained Java SDK for the TypeSafe AI System One (Jev) API. Not an official TypeSafe product *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "jamilxt/typesafe-ai-java",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "soupbase",
+   "url": "https://github.com/spoonnotfound/soupbase",
+   "desc": "Jev x \u6d77\u9f9f\u6c64 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "spoonnotfound/soupbase",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jev-2048-selenium",
+   "url": "https://github.com/AMMIROSOH/jev-2048-selenium",
+   "desc": "Selenium 2048 player powered by expectimax search and TypeSafe Jev, with portrait FFmpeg recording *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AMMIROSOH/jev-2048-selenium",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jevelry",
+   "url": "https://github.com/backant-io/jevelry",
+   "desc": "Use Jev everywhere to make & track decisions *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "backant-io/jevelry",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "langchain-skill-router",
+   "url": "https://github.com/deyna256/langchain-skill-router",
+   "desc": "Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "deyna256/langchain-skill-router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "Jev-Desktop (jacks3tr)",
+   "url": "https://github.com/jacks3tr/Jev-Desktop",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "jacks3tr/Jev-Desktop",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jevsearch (kylemclaren)",
+   "url": "https://github.com/kylemclaren/jevsearch",
+   "desc": "Site search that understands the question. Ranked by TypeSafe's Jev model *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "kylemclaren/jevsearch",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "typesafe-sdk-cpp",
+   "url": "https://github.com/pewriebontal/typesafe-sdk-cpp",
+   "desc": "An unofficial CPP 20 SDK for the TypeSafe API *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "pewriebontal/typesafe-sdk-cpp",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jev-crash-course",
+   "url": "https://github.com/AIAnytime/jev-crash-course",
+   "desc": "All projects for learning Jev, a model that makes decisions instead of writing text. Live API calls, no build tooling, one demo per folder *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AIAnytime/jev-crash-course",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "DoomSat",
+   "url": "https://github.com/Devonance/DoomSat",
+   "desc": "F\u00b4 flight software \u2192 CCSDS/Yamcs \u2192 Open MCT, with jev (System One) and Claude Sonnet 5 (System Two) driving Doom over that real mission stack *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Devonance/DoomSat",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "graphify-starter",
+   "url": "https://github.com/HAR5HA-7663/graphify-starter",
+   "desc": "Portable Claude Code second brain: markdown wiki (Obsidian-ready) + ChromaDB vectors, auto-embedding watcher, fast query daemon, optional Jev rerank, nightly session distillation and private-git multi-device sync. macOS + Linux replicas *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "HAR5HA-7663/graphify-starter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "diffusion-jev-sglang",
+   "url": "https://github.com/Hangzhi/diffusion-jev-sglang",
+   "desc": "A Jev-like decision engine powered by DiffusionGemma and SGLang. Jev with eyes *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Hangzhi/diffusion-jev-sglang",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "jev-in-the-wild",
+   "url": "https://github.com/Jessie-QingYu/jev-in-the-wild",
+   "desc": "Real-world Jev use cases, open-source projects, benchmarks and criticism \u2014 what people actually build with TypeSafe AI's Jev, and where it fails. Machine-readable, updated daily *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Jessie-QingYu/jev-in-the-wild",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "Jev_steer_or_queue",
+   "url": "https://github.com/Larkspur-Wang/Jev_steer_or_queue",
+   "desc": "Let TypeSafe Jev decide whether a message you send mid-turn should steer, queue, or interrupt your coding agent. Claude Code plugin; Codex CLI in testing *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Larkspur-Wang/Jev_steer_or_queue",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "CUA-JEV",
+   "url": "https://github.com/ZJU-REAL/CUA-JEV",
+   "desc": "Jev for Computer Use *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ZJU-REAL/CUA-JEV",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-09-23"
+  },
+  {
+   "name": "notiq",
+   "url": "https://github.com/chengyongru/notiq",
+   "desc": "Native Android notification filtering with natural-language rules, powered by Jev or self-hosted FastJev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "chengyongru/notiq",
    "lists": 0,
    "sources": [
     "auto-discovery"
