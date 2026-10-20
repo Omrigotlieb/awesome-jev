@@ -29818,8 +29818,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-09-29"
@@ -43979,11 +43979,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-09"
   },
@@ -44928,13 +44924,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-09"
   },
@@ -47634,8 +47626,11 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [],
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
    "extra_links": [],
    "discovered": "2026-10-11"
   },
@@ -48151,7 +48146,9 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "score"
+   ],
    "extra_links": [],
    "discovered": "2026-10-12"
   },
@@ -51851,12 +51848,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-14"
   },
@@ -51888,11 +51882,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-14"
   },
@@ -51906,13 +51898,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-14"
   },
@@ -51983,14 +51971,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "boolean",
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-14"
   },
@@ -52020,11 +52003,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-14"
   },
@@ -52810,8 +52791,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-15"
@@ -53466,13 +53447,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-15"
   },
@@ -53504,11 +53481,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-15"
   },
@@ -53538,12 +53513,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-15"
   },
@@ -53577,12 +53549,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-15"
   },
@@ -53596,11 +53565,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-15"
   },
@@ -54279,13 +54246,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -54299,13 +54262,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -54673,8 +54632,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
@@ -54725,8 +54684,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
@@ -54796,11 +54755,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -54868,13 +54825,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -54888,13 +54841,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -54908,13 +54857,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -54948,13 +54893,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -54984,8 +54925,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
@@ -55020,11 +54961,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-16"
   },
@@ -55486,13 +55425,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55542,12 +55477,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55561,13 +55493,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55581,13 +55509,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55601,8 +55525,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
@@ -55617,11 +55541,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55635,14 +55557,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "boolean",
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55693,11 +55610,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55727,11 +55642,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -55745,8 +55658,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
@@ -55781,11 +55694,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -56298,8 +56209,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
@@ -56314,13 +56225,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -56334,11 +56241,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -56352,13 +56257,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
   },
@@ -56372,8 +56273,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
@@ -56409,8 +56310,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
@@ -56461,8 +56362,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-17"
@@ -56823,11 +56724,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -56841,11 +56740,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -56875,13 +56772,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -56989,11 +56882,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57007,8 +56898,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
@@ -57023,11 +56914,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57061,8 +56950,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
@@ -57093,13 +56982,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57153,11 +57038,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57171,11 +57054,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57189,11 +57070,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57207,11 +57086,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57261,11 +57138,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57403,10 +57278,8 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "evidence": "mentions",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57517,8 +57390,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
@@ -57567,13 +57440,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57607,11 +57476,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57625,8 +57492,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
@@ -57694,11 +57561,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57800,11 +57665,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57818,13 +57681,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57884,13 +57743,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57972,11 +57827,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -57990,11 +57843,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-18"
   },
@@ -58210,11 +58061,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58248,11 +58097,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58266,13 +58113,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58359,8 +58202,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
@@ -58395,11 +58238,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58573,8 +58414,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
@@ -58589,11 +58430,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58607,13 +58446,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58627,13 +58462,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58682,11 +58513,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -58720,13 +58549,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -59127,8 +58952,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
@@ -59143,8 +58968,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
@@ -59159,8 +58984,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
@@ -59212,7 +59037,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "mentions",
    "primitives": [
     "choice"
    ],
@@ -59247,8 +59072,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
@@ -59263,13 +59088,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -59283,11 +59104,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -59301,11 +59120,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -59319,11 +59136,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -59353,14 +59168,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "boolean",
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -59390,12 +59200,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -59728,7 +59535,7 @@
    "discovered": "2026-10-20"
   },
   {
-   "name": "jev-",
+   "name": "jev- (1578898867j-art)",
    "url": "https://github.com/1578898867j-art/jev-",
    "desc": "111 *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -59769,13 +59576,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -59807,13 +59610,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -59827,11 +59626,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -59845,8 +59642,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
@@ -59949,8 +59746,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "dead",
-   "evidence": "unchecked",
+   "link_status": "ok",
+   "evidence": "strong",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
@@ -60003,13 +59800,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -60043,12 +59836,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -60062,11 +59852,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -60080,9 +59868,12 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "dead",
-   "evidence": "unchecked",
-   "primitives": [],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -60112,13 +59903,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -60132,11 +59919,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   },
@@ -60156,6 +59941,732 @@
     "choice",
     "score"
    ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "qq-persona-agent",
+   "url": "https://github.com/WuZihang-bit/qq-persona-agent",
+   "desc": "QQ \u6570\u5b57\u5206\u8eab / Persona-distilled QQ social agent \u2014 \u628a\u4f60\u81ea\u5df1\u84b8\u998f\u6210 QQ \u673a\u5668\u4eba\uff1a\u4eba\u683c\u84b8\u998f\u3001\u62df\u4eba\u5316\u53d1\u9001\u3001\u7fa4\u804a\u56f4\u89c2\u3001\u957f\u671f\u8bb0\u5fc6\u3001\u591a\u6b65 Agent \u4efb\u52a1\uff0c\u97f3\u9891\u8f93\u51fa\uff0c\u5531\u6b4c\u80fd\u529b\u3002NapCat + AstrBot + LLM+Jev+MOSS+seed-vc *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "WuZihang-bit/qq-persona-agent",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-dotnet",
+   "url": "https://github.com/rwjdk/jev-dotnet",
+   "desc": "An opinionated and convention-based .NET implementation of the Jev Classification AI by TypeSafeAI *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "rwjdk/jev-dotnet",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "tinystruct-smart-dba",
+   "url": "https://github.com/tinystruct/tinystruct-smart-dba",
+   "desc": "An AI database agent for the terminal, built on the tinystruct Java framework. You ask questions in plain English, such as \"show me the ten newest orders\" or \"how many users signed up this week?\". The agent works out the SQL, runs it against your database, and shows the results *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "tinystruct/tinystruct-smart-dba",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "claujev",
+   "url": "https://github.com/Civalski/claujev",
+   "desc": "Jev (TypeSafe AI) as a second pair of eyes for Claude Code: request triage, automatic effort, command guard, rule review and a final check. Claude Code plugin, zero dependencies *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Civalski/claujev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "gaman-ai",
+   "url": "https://github.com/Thinq-labs/gaman-ai",
+   "desc": "Gaman AI is a local-first System One decision engine delivering sub-20ms routing, guardrails, and scoring on edge CPUs with zero cloud dependencies *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Thinq-labs/gaman-ai",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "Traffic-Qwen-Decision",
+   "url": "https://github.com/kennedy-kitoko/Traffic-Qwen-Decision",
+   "desc": "Traffic signal control with jev like (Traffic\u2011Qwen Decision) is a fast, locally deployable traffic-signal decision model built on the JevLight\u2013CityFlow framework. It converts Qwen3.5\u20110.8B into a non-generative decision model using QLoRA and a Clef-style decision head to select traffic-signal phases and green durations with calibrated probabilities *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "kennedy-kitoko/Traffic-Qwen-Decision",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "LlmTestServer",
+   "url": "https://github.com/managedcode/LlmTestServer",
+   "desc": "LLM Test Server: deterministic LLM API mocking for .NET and Aspire *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "managedcode/LlmTestServer",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-where-is-waldo",
+   "url": "https://github.com/maxim-kich/jev-where-is-waldo",
+   "desc": "An experiment in finding Waldo with Jev image and bounding-box questions *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "maxim-kich/jev-where-is-waldo",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "falcon",
+   "url": "https://github.com/nocoo/falcon",
+   "desc": "\ud83e\udd85 Native macOS Jev proxy and decision observability, in development *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "nocoo/falcon",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "clinguard-laya-rag",
+   "url": "https://github.com/saberfazliahmadi/clinguard-laya-rag",
+   "desc": "Calibrated System-1 Decision Layer for Healthcare RAG using Laya & Jev principles *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "saberfazliahmadi/clinguard-laya-rag",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "ziru-jev-codex-router",
+   "url": "https://github.com/zirubak/ziru-jev-codex-router",
+   "desc": "Quality-aware model and effort routing for macOS Codex Desktop \u2014 private preview *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zirubak/ziru-jev-codex-router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-decision-head",
+   "url": "https://github.com/113636xfh/jev-decision-head",
+   "desc": "A lightweight Jev-style decision head, plus the Strata patches that let one resident Strata process serve both LLM generation and Jev-style typed decisions from a single set of weights. Ships trained head weights, patches, and training/eval code *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "113636xfh/jev-decision-head",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-gmail-labeler",
+   "url": "https://github.com/1npo/jev-gmail-labeler",
+   "desc": "A tool that uses Jev and the GMail API to organize your emails with labels *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "1npo/jev-gmail-labeler",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "qwen-jev-lora",
+   "url": "https://github.com/801sanae/qwen-jev-lora",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "801sanae/qwen-jev-lora",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "JEV (AIHub295)",
+   "url": "https://github.com/AIHub295/JEV",
+   "desc": "JEV use cases *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AIHub295/JEV",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "multi-jev",
+   "url": "https://github.com/AlbertoGonzalezOlmos/multi-jev",
+   "desc": "Training low latency decision models for custom applications *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AlbertoGonzalezOlmos/multi-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "Jev-Lung-Cancer-Detection",
+   "url": "https://github.com/Amr-devman/Jev-Lung-Cancer-Detection",
+   "desc": "Using Jev to classify lung biopsy images *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Amr-devman/Jev-Lung-Cancer-Detection",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-test",
+   "url": "https://github.com/AndresRubio/jev-test",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AndresRubio/jev-test",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-tests",
+   "url": "https://github.com/ConfusedSky/jev-tests",
+   "desc": "Ask a shelf of PDF rulebooks questions. jev, a decision model that returns only probabilities, finds the page that answers and reads out a count, a figure, true/false, a passage or a table in the book's own words; it never writes text of its own *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ConfusedSky/jev-tests",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-emoji",
+   "url": "https://github.com/DCPRevere/jev-emoji",
+   "desc": "Pick an emoji for a piece of text using TypeSafe's Jev model *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "DCPRevere/jev-emoji",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-1.14-test-and-pebble-train",
+   "url": "https://github.com/DEHOSS/jev-1.14-test-and-pebble-train",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "DEHOSS/jev-1.14-test-and-pebble-train",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "sofia-agente-ia-infominas",
+   "url": "https://github.com/Danilim04/sofia-agente-ia-infominas",
+   "desc": "Sofia \u2014 agente de atendimento WhatsApp da Infominas (Infodesk + JEV) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Danilim04/sofia-agente-ia-infominas",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "kev-thai-pdpa-guard",
+   "url": "https://github.com/Datchthana1/kev-thai-pdpa-guard",
+   "desc": "Thai PDPA personal-data detector and 0-4 risk scorer: Kev-4B (Jev-style decision model) QLoRA fine-tuned on an 8 GB laptop GPU *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Datchthana1/kev-thai-pdpa-guard",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-lanes",
+   "url": "https://github.com/EricMariano/jev-lanes",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "EricMariano/jev-lanes",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-orchestration",
+   "url": "https://github.com/GilBar2/jev-orchestration",
+   "desc": "Route coding tasks between Claude Code, Codex and Hermes: pattern, model and effort per role, decided by a $0 jury with a read-only scout fallback *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "GilBar2/jev-orchestration",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "codex-jev-dnd-alchemist",
+   "url": "https://github.com/Grumbash/codex-jev-dnd-alchemist",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Grumbash/codex-jev-dnd-alchemist",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "quiz-jev",
+   "url": "https://github.com/Guilhermeb-Ferrarezi/quiz-jev",
+   "desc": "Extens\u00e3o de navegador que responde a quest\u00e3o de m\u00faltipla escolha selecionada na tela, com um modelo r\u00e1pido e escalonamento para um LLM quando a confian\u00e7a \u00e9 baixa *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Guilhermeb-Ferrarezi/quiz-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jevulator",
+   "url": "https://github.com/Huberdoggy/jevulator",
+   "desc": "A locally run emulation of TypeSafe\u2019s Jev, served via llama-server + Qwen3.6-35B-A3B *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Huberdoggy/jevulator",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "Jev-E2E-WebTest",
+   "url": "https://github.com/JustinIan-AI/Jev-E2E-WebTest",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "JustinIan-AI/Jev-E2E-WebTest",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "CharacterStage",
+   "url": "https://github.com/Kagenou-Eta/CharacterStage",
+   "desc": "SillyTavern extension: show any character's sprites in any chat, with expressions picked by a local Laya System One model *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Kagenou-Eta/CharacterStage",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jevidence",
+   "url": "https://github.com/LBDavid98/jevidence",
+   "desc": "Measure an agent or a prompt with a panel of typed questions, judged by Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "LBDavid98/jevidence",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "sq",
+   "url": "https://github.com/LIghtJUNction/sq",
+   "desc": "System One decisions for shell pipelines \u2014 Rust CLI, local relay and typed Python SDK *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "LIghtJUNction/sq",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "document-classifier",
+   "url": "https://github.com/LandoCole/document-classifier",
+   "desc": "Document-type classification with Jev, a decision model: 100% on 43 financial documents at 136 ms and $0.14 per 1,000, benchmarked against LLMs, a bi-encoder and keyword rules *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "LandoCole/document-classifier",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "easyalliance-a11y-triage",
+   "url": "https://github.com/LaserTrajectory/easyalliance-a11y-triage",
+   "desc": "Prototype: confidence-routed accessibility bug triage with Jev vs. LLM baselines (Easy Alliance Project 1) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "LaserTrajectory/easyalliance-a11y-triage",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "framefind",
+   "url": "https://github.com/Lyadalachanchu/framefind",
+   "desc": "Find moments in videos with natural-language search. Local Python app powered by FFmpeg and TypeSafe Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Lyadalachanchu/framefind",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "rbxts-jev",
+   "url": "https://github.com/Lypt1x/rbxts-jev",
+   "desc": "Typed, functional TypeSafe Jev client for roblox-ts. Ask many questions about one state, get typed decisions back *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Lypt1x/rbxts-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "Jev-BankTransaction",
+   "url": "https://github.com/Mohamed-rilwan/Jev-BankTransaction",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Mohamed-rilwan/Jev-BankTransaction",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "jev-literature-classifier",
+   "url": "https://github.com/NikaY108/jev-literature-classifier",
+   "desc": "Local literature classification workbench powered by Jev, with taxonomy editing, review, and optional Zotero export *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "NikaY108/jev-literature-classifier",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "lisa-browser-use",
+   "url": "https://github.com/PabloPC05/lisa-browser-use",
+   "desc": "El navegador de Lisa: un Chromium propio que maneja JEV, con ba\u00fal de contrase\u00f1as, permisos antes de enviar o pagar y rutinas, servido como MCP para cualquier agente *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "PabloPC05/lisa-browser-use",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-10-20"
+  },
+  {
+   "name": "comments-categorize",
+   "url": "https://github.com/Palmkonde/comments-categorize",
+   "desc": "comments-categories using example of Jev AI application *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Palmkonde/comments-categorize",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-20"
   }
