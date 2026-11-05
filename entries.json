@@ -19876,7 +19876,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "none",
+   "evidence": "mentions",
    "primitives": [
     "boolean",
     "choice",
@@ -36932,7 +36932,7 @@
    "discovered": "2026-10-04"
   },
   {
-   "name": "jev-snips-benchmark",
+   "name": "jev-snips-benchmark (will-rice)",
    "url": "https://github.com/will-rice/jev-snips-benchmark",
    "desc": "Applying Jev to Snips Natural Language Understanding Benchmark *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -37032,12 +37032,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-04"
   },
@@ -51868,7 +51865,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
+   "evidence": "none",
    "primitives": [
     "choice"
    ],
@@ -73614,9 +73611,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-30"
   },
@@ -74355,8 +74350,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "dead",
-   "evidence": "unchecked",
+   "link_status": "ok",
+   "evidence": "mentions",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-30"
@@ -75336,7 +75331,8 @@
    "evidence": "strong",
    "primitives": [
     "choice",
-    "noul"
+    "noul",
+    "score"
    ],
    "extra_links": [],
    "discovered": "2026-10-31"
@@ -77667,11 +77663,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-01"
   },
@@ -82693,6 +82685,712 @@
    "primitives": [
     "choice",
     "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "payment-gateway-fraud-detection",
+   "url": "https://github.com/phuchoang2603/payment-gateway-fraud-detection",
+   "desc": "scalable realtime payment gateway fraud detection system *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "phuchoang2603/payment-gateway-fraud-detection",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "eval-genius",
+   "url": "https://github.com/alexgreensh/eval-genius",
+   "desc": "Teach your agent to work with evals: WHEN you actually need an eval or benchmark, HOW to build one that holds up, and how to read what it tells you. Deterministic-first, tool-agnostic *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "alexgreensh/eval-genius",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "llm-evals",
+   "url": "https://github.com/kigster/llm-evals",
+   "desc": "A CLI for comparing LLMs, prompt configurations, datasets with cases, and with a custom evaluation suites. Through the OpenRouter or the direct Jev adapter. Write an adapter that calls your application and a Scorer that measures the outcomes you care about.     Compare models, or track how prompt and parameter changes affect results *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "kigster/llm-evals",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "test-jev-contradictions",
+   "url": "https://github.com/AsphodelRem/test-jev-contradictions",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AsphodelRem/test-jev-contradictions",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-ecommerce-reviews",
+   "url": "https://github.com/Chetax/jev-ecommerce-reviews",
+   "desc": "E-commerce review classification with TypeSafe's Jev: Google Sheets \u2192 typed decisions (topic, sentiment, defect/refund flags) with calibrated confidence \u2192 BI dashboard. Includes accuracy, calibration and cost benchmarks vs. an LLM *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Chetax/jev-ecommerce-reviews",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "Jev-like-Models-for-Digital-Twins-II2202",
+   "url": "https://github.com/Gabrielebandino/Jev-like-Models-for-Digital-Twins-II2202",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Gabrielebandino/Jev-like-Models-for-Digital-Twins-II2202",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "infinite-trading-local-ai",
+   "url": "https://github.com/InfiniteTradingProtocol/infinite-trading-local-ai",
+   "desc": "Open-source macOS app that sets up and manages local AI models (Ollama, Jev) for the Infinite Agent. Reproducible, verifiable builds *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "InfiniteTradingProtocol/infinite-trading-local-ai",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "pi-adw",
+   "url": "https://github.com/Saml1211/pi-adw",
+   "desc": "Verification gate for Pi coding agent: Jev scope/risk, tests, diff stat, review readiness *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Saml1211/pi-adw",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "pi-prime",
+   "url": "https://github.com/Saml1211/pi-prime",
+   "desc": "Dynamic context bundle priming & TypeSafe Jev state analysis for Pi Coding Agent *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Saml1211/pi-prime",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "system-one-vlm",
+   "url": "https://github.com/adnan-hussen/system-one-vlm",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "adnan-hussen/system-one-vlm",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "cicilybiconcave74.github.io",
+   "url": "https://github.com/cicilybiconcave74/cicilybiconcave74.github.io",
+   "desc": "Evaluate Jev, TypeSafe AI's decision model, on SNIPS intent detection and slot filling with label names, definitions, and few-shot examples *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "cicilybiconcave74/cicilybiconcave74.github.io",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [
+    "boolean"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-snips-benchmark (cicilybiconcave74)",
+   "url": "https://github.com/cicilybiconcave74/jev-snips-benchmark",
+   "desc": "Benchmark Jev's typed-question decision model on SNIPS intent detection and slot filling, testing accuracy with label names, definitions, and few examples *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "cicilybiconcave74/jev-snips-benchmark",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "KD-Agent-Runtime",
+   "url": "https://github.com/ctaxnagomi/KD-Agent-Runtime",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ctaxnagomi/KD-Agent-Runtime",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "dbt-decisions",
+   "url": "https://github.com/dbt-labs/dbt-decisions",
+   "desc": "dbt package for System One / jev-class decisions inside SQL *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "dbt-labs/dbt-decisions",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-tiktok-trend-classifier",
+   "url": "https://github.com/derekyang7/jev-tiktok-trend-classifier",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "derekyang7/jev-tiktok-trend-classifier",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "a0-plugin-jev-compact",
+   "url": "https://github.com/duketopceo/a0-plugin-jev-compact",
+   "desc": "Agent Zero plugin: Jev span-scored context compaction + tombstone restore (Khan#197) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "duketopceo/a0-plugin-jev-compact",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-compact",
+   "url": "https://github.com/duketopceo/jev-compact",
+   "desc": "Context compaction for agent harnesses: a decision model scores transcript spans and tombstones the ones that stop mattering. Includes an MCP restore server *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "duketopceo/jev-compact",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "dsh-jev-core",
+   "url": "https://github.com/fan56/dsh-jev-core",
+   "desc": "Shared TypeSafe Jev decision-model client for the dsh ecosystem: strict response validation, keychain-first key resolution, typed fail-open errors. Jev-optional by design *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "fan56/dsh-jev-core",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-playground",
+   "url": "https://github.com/fol2/jev-playground",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "fol2/jev-playground",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-rag-pipeline",
+   "url": "https://github.com/furkandrms/jev-rag-pipeline",
+   "desc": "A retrieval-augmented generation pipeline wrapped en-to-end with jev-rag-guard's relevance, sufficiency,and grounding checks *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "furkandrms/jev-rag-pipeline",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-made-simple",
+   "url": "https://github.com/gaurish676/jev-made-simple",
+   "desc": "Jev Made Simple - Interactive decision engine and probability visualizer *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gaurish676/jev-made-simple",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "autonomy-meter",
+   "url": "https://github.com/gbesse/autonomy-meter",
+   "desc": "Measure automation coverage and risk with chronological holdouts, confidence bounds and offline reports *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/autonomy-meter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "bevy-jev",
+   "url": "https://github.com/gbesse/bevy-jev",
+   "desc": "Non-blocking, provenance-checked Jev decisions for Bevy ECS *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/bevy-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "blender-jev-review",
+   "url": "https://github.com/gbesse/blender-jev-review",
+   "desc": "Review selected Blender object metadata and focus exact cited objects *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/blender-jev-review",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "coolify-jev-failures",
+   "url": "https://github.com/gbesse/coolify-jev-failures",
+   "desc": "Triage Jev des \u00e9checs Coolify / Jev triage for Coolify failures / Triaje Jev de fallos Coolify *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/coolify-jev-failures",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "debezium-jev-cdc",
+   "url": "https://github.com/gbesse/debezium-jev-cdc",
+   "desc": "Jev + Debezium CDC : d\u00e9cisions s\u00e9mantiques / semantic decisions / decisiones sem\u00e1nticas *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/debezium-jev-cdc",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "decision-migrate",
+   "url": "https://github.com/gbesse/decision-migrate",
+   "desc": "Reviewable Dify classifier migrations to Jev, with preserved branches and baseline comparisons *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/decision-migrate",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "decision-solver",
+   "url": "https://github.com/gbesse/decision-solver",
+   "desc": "Combine Jev preferences with finite constraints, exact bounded search and verifiable backend adapters *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/decision-solver",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "decisionpacks",
+   "url": "https://github.com/gbesse/decisionpacks",
+   "desc": "Versioned Jev decision contracts with typed validation, deterministic policies and historical replay *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/decisionpacks",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "flink-jev",
+   "url": "https://github.com/gbesse/flink-jev",
+   "desc": "Flink SQL ML_PREDICT provider for TypeSafe Jev semantic decisions *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/flink-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "foundry-jev-encounter-director",
+   "url": "https://github.com/gbesse/foundry-jev-encounter-director",
+   "desc": "Preview-first finite encounter direction for Foundry VTT *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/foundry-jev-encounter-director",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-codebook",
+   "url": "https://github.com/gbesse/jev-codebook",
+   "desc": "Qualitative coding at scale with Jev: apply a codebook to open-ended text, review uncertain items, measure agreement against your human coders *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-codebook",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-duelarena",
+   "url": "https://github.com/gbesse/jev-duelarena",
+   "desc": "Run visible criterion-by-criterion text duels and honestly progressive elimination brackets with Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-duelarena",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-extract",
+   "url": "https://github.com/gbesse/jev-extract",
+   "desc": "Turn documents into typed records with bounded, auditable Jev questions and deterministic aggregation *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-extract",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-guardrails-fr-arena",
+   "url": "https://github.com/gbesse/jev-guardrails-fr-arena",
+   "desc": "Compare r\u00e8gles, Jev et un serveur Shieldstral sur les m\u00eames cas fran\u00e7ais *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-guardrails-fr-arena",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-insersup-claim-check",
+   "url": "https://github.com/gbesse/jev-insersup-claim-check",
+   "desc": "V\u00e9rifie si une affirmation d\u2019insertion est soutenue par l\u2019indicateur InserSup cit\u00e9 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-insersup-claim-check",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-meteo-vigilance-brief",
+   "url": "https://github.com/gbesse/jev-meteo-vigilance-brief",
+   "desc": "Transforme un bulletin officiel de vigilance en briefing op\u00e9rationnel adapt\u00e9 \u00e0 un contexte d\u00e9clar\u00e9 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-meteo-vigilance-brief",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-pairs",
+   "url": "https://github.com/gbesse/jev-pairs",
+   "desc": "Deduplicate, cluster, link and find contradictions with measurable blocking and a deterministic cascade *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-pairs",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-pii",
+   "url": "https://github.com/gbesse/jev-pii",
+   "desc": "Inventory personal data with local checks first and optional column-level semantic classification *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-pii",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-05"
+  },
+  {
+   "name": "jev-premiere-markers",
+   "url": "https://github.com/gbesse/jev-premiere-markers",
+   "desc": "Turn typed Jev review findings into exact, undoable Premiere timeline markers *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gbesse/jev-premiere-markers",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
    ],
    "extra_links": [],
    "discovered": "2026-11-05"
