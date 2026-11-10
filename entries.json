@@ -18408,9 +18408,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-09-21"
   },
@@ -28765,6 +28763,7 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
+    "choice",
     "score"
    ],
    "extra_links": [],
@@ -47567,7 +47566,7 @@
    "discovered": "2026-10-11"
   },
   {
-   "name": "JevQuant",
+   "name": "JevQuant (Knight-ask-art)",
    "url": "https://github.com/Knight-ask-art/JevQuant",
    "desc": "Lightweight AI Quantitative Trading System (TypeSafe Jev + Binance Spot BTC/USDT) *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -47687,9 +47686,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-11"
   },
@@ -48100,7 +48097,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "mentions",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-12"
@@ -58551,7 +58548,9 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "noul"
+   ],
    "extra_links": [],
    "discovered": "2026-10-19"
   },
@@ -71040,7 +71039,7 @@
    "discovered": "2026-10-28"
   },
   {
-   "name": "jev-and-ai-sdk",
+   "name": "jev-and-ai-sdk (Ohmypc-omg)",
    "url": "https://github.com/Ohmypc-omg/jev-and-ai-sdk",
    "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -73209,7 +73208,9 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "score"
+   ],
    "extra_links": [],
    "discovered": "2026-10-29"
   },
@@ -75934,8 +75935,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-31"
@@ -86008,7 +86009,7 @@
    "discovered": "2026-11-07"
   },
   {
-   "name": "systemone",
+   "name": "systemone (lu-zero)",
    "url": "https://github.com/lu-zero/systemone",
    "desc": "Rust client for the TypeSafe AI systemone API *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -87218,11 +87219,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-08"
   },
@@ -89091,6 +89090,712 @@
    "primitives": [
     "choice",
     "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "probascope",
+   "url": "https://github.com/moudrkat/probascope",
+   "desc": "Jev-like decision models running natively on your Android phone, with a look inside: where in the layers the answer formed, and the blocks your text went through *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "moudrkat/probascope",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "press-oclock",
+   "url": "https://github.com/alvillalta/press-oclock",
+   "desc": "Agentic RAG assistant for journalists that triages press-release emails with Jev and uses OpenAI embeddings, pgvector similarity search, and contextual retrieval to deliver traceable natural language insights *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "alvillalta/press-oclock",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "omp-maestro",
+   "url": "https://github.com/hsmoviich/omp-maestro",
+   "desc": "\ud83c\udfbc My oh-my-pi (omp) setup in one command: public plugins & skills I use, my own Jev Router, and three switchable model ensembles \u2014 Claude, ChatGPT, or a mix where Claude leads and GPT codes *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "hsmoviich/omp-maestro",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "s1scope",
+   "url": "https://github.com/robinbach/s1scope",
+   "desc": "system one scope *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "robinbach/s1scope",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "systemone (talalkashar)",
+   "url": "https://github.com/talalkashar/systemone",
+   "desc": "Any agent decides. SystemOne checks the handoff, refuses sensitive surfaces, and never passes --act *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "talalkashar/systemone",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "decisionPentest",
+   "url": "https://github.com/Ar39/decisionPentest",
+   "desc": "jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Ar39/decisionPentest",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "pi-lookout",
+   "url": "https://github.com/Awlaursen/pi-lookout",
+   "desc": "Pi extension: stops a bash command early when Jev judges its output shows it's stuck on a problem it can't fix itself *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Awlaursen/pi-lookout",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "Jeff-OneClick",
+   "url": "https://github.com/Chiyang001/Jeff-OneClick",
+   "desc": "Jeff \u61d2\u4eba\u4e00\u952e\u90e8\u7f72\u5305 \u00b7 Windows \u672c\u5730\u6587\u672c\u5206\u7c7b\u3001\u4e2d\u6587 WebUI \u4e0e jev \u517c\u5bb9 API *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Chiyang001/Jeff-OneClick",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "BiliQuiet",
+   "url": "https://github.com/Elysium-Seeker/BiliQuiet",
+   "desc": "\u9759\u8bc4 \u00b7 \u5728 B \u7ad9\u89c6\u9891\u8bc4\u8bba\u533a\u6298\u53e0\u673a\u5668\u4eba\u8bdd\u672f\u548c\u4e89\u8fa9\uff0c\u6309\u4e2a\u4eba\u53cd\u9988\u8c03\u6574\u7684 Tampermonkey \u811a\u672c\u3002\u652f\u6301\u53ef\u9009\u7684 Jev \u590d\u6838\u3002 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Elysium-Seeker/BiliQuiet",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "Preen-AI-email-sorting",
+   "url": "https://github.com/JR91387/Preen-AI-email-sorting",
+   "desc": "Preen (to smooth or clean) uses the lightning-fast, cheap and efficient decision making power of Jev to evaluate emails and apply tags *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "JR91387/Preen-AI-email-sorting",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "exocortex",
+   "url": "https://github.com/Konan69/exocortex",
+   "desc": "A headless knowledge graph for people and agents: HelixDB entity graph + BM25 + vectors, links judged by Jev. Obsidian without the app *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Konan69/exocortex",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "can-you-repeat-that",
+   "url": "https://github.com/LachPawel/can-you-repeat-that",
+   "desc": "A robot that knows who is speaking to it and acts on what they say. Vapi hackathon: Voice Focus, Tyto, Jev, Deepgram, Reachy Mini, SO-101 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "LachPawel/can-you-repeat-that",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "ai-science-interactive-guide",
+   "url": "https://github.com/MahdiZamaniCore/ai-science-interactive-guide",
+   "desc": "An interactive Persian AI engineering guide covering RAG, embeddings, vector search, HNSW, Jev, security, and Python/Qdrant \u2014 in one standalone HTML file *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "MahdiZamaniCore/ai-science-interactive-guide",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "jev-and-ai-sdk (Neuxbane)",
+   "url": "https://github.com/Neuxbane/jev-and-ai-sdk",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Neuxbane/jev-and-ai-sdk",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "jev-runtime-governance-poc",
+   "url": "https://github.com/PolicyPhantom/jev-runtime-governance-poc",
+   "desc": "Bounded runtime-governance PoC for integrating probabilistic semantic decision components without treating them as permission or governance authority *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "PolicyPhantom/jev-runtime-governance-poc",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "esp32s3-iphone-jev-public",
+   "url": "https://github.com/Running-Snail-GO/esp32s3-iphone-jev-public",
+   "desc": "Reviewed iPhone Agent with optional Jev navigation and standard macOS builds *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Running-Snail-GO/esp32s3-iphone-jev-public",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "train-jev-qwen",
+   "url": "https://github.com/Ryan-FanZhang/train-jev-qwen",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Ryan-FanZhang/train-jev-qwen",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "jev-support-routing",
+   "url": "https://github.com/SMohammed72/jev-support-routing",
+   "desc": "Customer-support routing with the jev decision model on OpenRouter; low-confidence and high-risk tickets go to human review *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "SMohammed72/jev-support-routing",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "support-ticket-classifier-jev",
+   "url": "https://github.com/SuhelAnsari9272/support-ticket-classifier-jev",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "SuhelAnsari9272/support-ticket-classifier-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "rooms",
+   "url": "https://github.com/Wenjix/rooms",
+   "desc": "Interface design experiment. Ask the room a question, and the relevant ideas come forward. Voice-driven spatial workspace: Jev (TypeSafe) routing, Deepgram speech, Claude, Exa *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Wenjix/rooms",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "dressing-room-app",
+   "url": "https://github.com/aabv21/dressing-room-app",
+   "desc": "Digital closet app: photograph your clothes, Claude reads each garment and Jev rates outfits. Expo + Supabase, in English and Spanish *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "aabv21/dressing-room-app",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "openrouter-studio",
+   "url": "https://github.com/abmohajeri/openrouter-studio",
+   "desc": "A local, AI Studio\u2013style web app, CLI and Python library for OpenRouter. Use 600+ models with one key: chat, Jev decisions, extraction, image, video, speech and embeddings, with typed JSON output and live prices *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "abmohajeri/openrouter-studio",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "pi-warrant",
+   "url": "https://github.com/amitkumardubey/pi-warrant",
+   "desc": "Permission gate for the pi coding agent: Jev clears routine tool calls, risky ones stay on a static list, the rest ask you *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "amitkumardubey/pi-warrant",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "toolagentkg",
+   "url": "https://github.com/asdadsa105/toolagentkg",
+   "desc": "Knowledge Graph-Enhanced Scientific Tool Agent with DeepSeek and Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "asdadsa105/toolagentkg",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "MonsterJevActionalizer",
+   "url": "https://github.com/coredweller/MonsterJevActionalizer",
+   "desc": "Dungeons and Dragons (D&D) Monster decision maker given certain parameters and fed to Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "coredweller/MonsterJevActionalizer",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "jev-quant (dsk1134162538-hash)",
+   "url": "https://github.com/dsk1134162538-hash/jev-quant",
+   "desc": "A\u80a1\u4f4e\u5438\u6a21\u62df\u76d8\uff1a\u89c4\u5219\u9009\u80a1 + Jev \u516c\u544a/\u6d88\u606f\u9762\u8fc7\u6ee4 + \u5f71\u5b50\u8d26\u6237\u5bf9\u7167 + \u684c\u9762\u9762\u677f *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "dsk1134162538-hash/jev-quant",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "callscore",
+   "url": "https://github.com/epifaneia/callscore",
+   "desc": "Call-center quality with a model that never writes: Jev picks between closed options, code measures, scores and quotes. Coaching ranked by severity, feedback between teams. Artificial calls, declared *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "epifaneia/callscore",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "vapi-hackathon",
+   "url": "https://github.com/gouthamdeepak1705/vapi-hackathon",
+   "desc": "AI chief of staff that phones you only when something crosses your line. Vapi, Jev, Exa, Deepgram *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gouthamdeepak1705/vapi-hackathon",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "meta-slide",
+   "url": "https://github.com/hjsh200219/meta-slide",
+   "desc": "\uc0ac\ub0b4 PPT \uc6d0\uce59 \uae30\ubc18 \uc2ac\ub77c\uc774\ub4dc \uc0dd\uc131 Claude Code \ud50c\ub7ec\uadf8\uc778 \u2014 Jev \uac00 \ud15c\ud50c\ub9bf\u00b7\uc778\ud3ec\uadf8\ub798\ud53d\u00b7\uc0c9\u00b7\uc11c\uccb4\ub97c \uace0\ub978\ub2e4 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "hjsh200219/meta-slide",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "jev-chat-agent",
+   "url": "https://github.com/jonathanhecl/jev-chat-agent",
+   "desc": "Twitch bot that classifies messages in real time using Jev-Style-2B-Decision-v3 and logs the result *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "jonathanhecl/jev-chat-agent",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "mem100",
+   "url": "https://github.com/jugripa/mem100",
+   "desc": "Domain-agnostic two-tier memory architecture, 1-call TypeSafe Jev semantic retrieval with local Okapi BM25 fallback, and continuous cross-age consolidation engine for AI agents *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "jugripa/mem100",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "tiny-partner",
+   "url": "https://github.com/jvelasquezm1/tiny-partner",
+   "desc": "AI assistant for new parents in Telegram: typed routing with Jev, cited RAG in Postgres, evals in CI *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "jvelasquezm1/tiny-partner",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "calllens",
+   "url": "https://github.com/kitrakrev/calllens",
+   "desc": "CallLens: see inside every Vapi voice-agent call. Per-turn latency + root cause, judged by TypeSafe Jev, self-heals the live agent *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "kitrakrev/calllens",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "aiciv",
+   "url": "https://github.com/legomaster188/aiciv",
+   "desc": "Fabric mod for Minecraft 26.3: LLM-driven AI players (Gemini, Groq, OpenRouter, Ollama, Jev) that survive, build, trade and beat the game as server-side fake players, plus no-LLM autopilot bots. No client mod needed *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "legomaster188/aiciv",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "maddy-jev-filter",
+   "url": "https://github.com/lesderid/maddy-jev-filter",
+   "desc": "Sorts incoming mail for maddy into IMAP folders with Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "lesderid/maddy-jev-filter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "jevai-outskill-session-demo",
+   "url": "https://github.com/mpommrehn/jevai-outskill-session-demo",
+   "desc": "My working copy of Sugam Malviya's Jev categorizing example from Outskill Jev Engr session 10nov26 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "mpommrehn/jevai-outskill-session-demo",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "where-is-jev",
+   "url": "https://github.com/mraad/where-is-jev",
+   "desc": "Find storage tanks in aerial imagery: a vision-language model gates 50%-overlap tiles, SAM 3 detects only where tanks are *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "mraad/where-is-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "voice-ivr",
+   "url": "https://github.com/nayeemrahman13/voice-ivr",
+   "desc": "Phone menu that listens with Deepgram, lets Jev pick the stored line, and speaks it through Vapi *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "nayeemrahman13/voice-ivr",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "demo_trend_searcher",
+   "url": "https://github.com/nhchoi98/demo_trend_searcher",
+   "desc": "demo trend seracher using jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "nhchoi98/demo_trend_searcher",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-10"
+  },
+  {
+   "name": "zajel-mail",
+   "url": "https://github.com/odaiameera/zajel-mail",
+   "desc": "Self-hosted webmail, calendar and contacts for Stalwart, built on JMAP and CalDAV. Zajel, its AI agent, runs on OpenAI GPT-5.6 or your own Ollama and never acts without asking. Inbox tabs and plain-English rules with Jev, Send later, passkeys, and a phone-ready PWA. Formerly ameera *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "odaiameera/zajel-mail",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
     "score"
    ],
    "extra_links": [],
