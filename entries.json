@@ -23057,9 +23057,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-09-25"
   },
@@ -31114,7 +31112,6 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "choice",
     "score"
    ],
    "extra_links": [],
@@ -42688,7 +42685,7 @@
    "discovered": "2026-10-08"
   },
   {
-   "name": "jev-minecraft",
+   "name": "jev-minecraft (BHD110)",
    "url": "https://github.com/BHD110/jev-minecraft",
    "desc": "\u8ba9 Jev \u5728\u5f00\u6e90 Minecraft \u517c\u5bb9\u4e16\u754c\u4e2d\u91c7\u96c6\u3001\u5efa\u9020\u8425\u5730\uff1b\u652f\u6301\u6d4f\u89c8\u5668\u81ea\u5df1\u73a9\u548c\u9010\u6b65\u67e5\u770b\u771f\u5b9e\u51b3\u7b56\u3002 *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -48439,7 +48436,7 @@
    "discovered": "2026-10-12"
   },
   {
-   "name": "IntelligentDocumentProcessing",
+   "name": "IntelligentDocumentProcessing (DanielHuette)",
    "url": "https://github.com/DanielHuette/IntelligentDocumentProcessing",
    "desc": "Hybrid intelligent document processing: Jev decides, Claude Haiku 5.5 extracts, n8n orchestrates, Supabase stores. Benchmarked against 7 models on 250 documents *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -68979,10 +68976,8 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "none",
    "primitives": [
-    "boolean",
-    "choice",
     "score"
    ],
    "extra_links": [],
@@ -84345,7 +84340,7 @@
    "discovered": "2026-11-06"
   },
   {
-   "name": "jev-trader",
+   "name": "jev-trader (Ridnois)",
    "url": "https://github.com/Ridnois/jev-trader",
    "desc": "Rust crypto trading bot that reads the news with Jev: news strategy, order-flow scalper, settlement scoring, backtests, monitoring dashboard *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -86149,9 +86144,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-07"
   },
@@ -88887,8 +88880,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-10"
@@ -96048,8 +96041,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "dead",
-   "evidence": "unchecked",
+   "link_status": "ok",
+   "evidence": "none",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-14"
@@ -101295,6 +101288,7 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
+    "boolean",
     "choice",
     "noul",
     "score"
@@ -102190,10 +102184,507 @@
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-19"
+  },
+  {
+   "name": "jev-ml-compiler-eval",
+   "url": "https://github.com/Jonghu/jev-ml-compiler-eval",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Jonghu/jev-ml-compiler-eval",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "MultiModelAgent",
+   "url": "https://github.com/marcominerva/MultiModelAgent",
+   "desc": "Context-aware .NET 10 AI agent using Jev for dynamic model routing based on task complexity *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "marcominerva/MultiModelAgent",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "jev-minecraft (Anahadd)",
+   "url": "https://github.com/Anahadd/jev-minecraft",
+   "desc": "A Minecraft bot that uses TypeSafe's Jev model to pick every action on its way to a diamond *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Anahadd/jev-minecraft",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "HRM_JEV",
+   "url": "https://github.com/Copperhorse/HRM_JEV",
+   "desc": "LoRA fine-tune of HRM-Text-1B into a typed decision model on Open-Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Copperhorse/HRM_JEV",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "intelligent-document-processing (DanielHuette)",
+   "url": "https://github.com/DanielHuette/intelligent-document-processing",
+   "desc": "Hybride Dokumentenverarbeitung: Jev entscheidet, Claude Haiku 5.5 liest aus, n8n steuert den Ablauf, Supabase speichert. Auf 250 Dokumenten mit sieben anderen Systemen verglichen *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "DanielHuette/intelligent-document-processing",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "jev-nav",
+   "url": "https://github.com/Itsabhinav28/jev-nav",
+   "desc": "FPV navigation: a council of Jev agents decides, a Nemotron voice companion talks *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Itsabhinav28/jev-nav",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "system-one-agent",
+   "url": "https://github.com/MahmoudMoubarez/system-one-agent",
+   "desc": "A general-purpose agent loop that uses Jev to choose actions and context. Includes a coding prototype, a direct LLM baseline, and reproducible benchmarks *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "MahmoudMoubarez/system-one-agent",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "voicecom-jev",
+   "url": "https://github.com/MatthewRuizDiaz/voicecom-jev",
+   "desc": "Hold a key, say several commands in one sentence, and your Mac does them. Local Whisper speech, decisions by TypeSafe\u2019s Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "MatthewRuizDiaz/voicecom-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "OKF_with_JEV-AI",
+   "url": "https://github.com/Sriman-Kabilan/OKF_with_JEV-AI",
+   "desc": "A zero-hallucination company knowledge assistant powered by OKF, Jev AI classifier, CrewAI on NVIDIA NIM, and Chainlit *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Sriman-Kabilan/OKF_with_JEV-AI",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "cribl-plays-doom",
+   "url": "https://github.com/abedegno/cribl-plays-doom",
+   "desc": "Cribl Decision 1.0 plays Doom: a local decision model reads ViZDoom game state and picks a button, benchmarked against a heuristic and Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "abedegno/cribl-plays-doom",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "opencode-cua-tutor",
+   "url": "https://github.com/adunne09/opencode-cua-tutor",
+   "desc": "OpenCode V2 plugin: macOS computer-use tutor powered by TypeSafe Jev (Companion Nouls + Coarse-to-Fine Box + Direct Tutor mode) and Cua Driver overlay pointer (never clicks) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "adunne09/opencode-cua-tutor",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "parser-ai",
+   "url": "https://github.com/advaithajith-coder/parser-ai",
+   "desc": "AI accounts payable invoice processing with TypeSafe Jev judgment and a versioned decision engine (FastAPI, React, LLM) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "advaithajith-coder/parser-ai",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "gliner-emoji-filter",
+   "url": "https://github.com/aleksbal/gliner-emoji-filter",
+   "desc": "The idea comes from demos of **Jev by TypeSafe**, a cloud-only \"decision model\" that answers typed questions (choice / score / yes-no) with probabilities. This project asks whether an open, local GLiNER model can do the same job, and how fast *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "aleksbal/gliner-emoji-filter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "lost-lyrics",
+   "url": "https://github.com/anteloc/lost-lyrics",
+   "desc": "Describe a song's lyrics and find songs with matching lyrics, powered by Jev and Laya *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "anteloc/lost-lyrics",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "scrapbook-01",
+   "url": "https://github.com/franco-roura/scrapbook-01",
+   "desc": "Share things to yourself, and find them again. Saves from any app sort themselves into categories and link up into a graph. Join the waitlist, or host your own copy on AWS for cents *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "franco-roura/scrapbook-01",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "jev-trader (gilesknap)",
+   "url": "https://github.com/gilesknap/jev-trader",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gilesknap/jev-trader",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "quickverdict",
+   "url": "https://github.com/janmm97/quickverdict",
+   "desc": "Local, open-source LLM classifier server: ask a small model on your own GPU Choice, Score or Yes/No (Noul) questions and get calibrated, deterministic probabilities. Wire-compatible with TypeSafe's System One (Jev) API. Python, MIT *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "janmm97/quickverdict",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "jev-mcp-unraid",
+   "url": "https://github.com/jbowensii/jev-mcp-unraid",
+   "desc": "Containerized TypeSafe Jev judgment MCP server (stdio->HTTP via mcp-proxy) for Unraid + MCPJungle *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "jbowensii/jev-mcp-unraid",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "wildfire-sentinel",
+   "url": "https://github.com/juanmaagd/wildfire-sentinel",
+   "desc": "Wildfire triage, spread prediction and response planning for Japan \u2014 Jev, ai& and Neo4j (Tokyo Agent Hackathon 2026) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "juanmaagd/wildfire-sentinel",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "jev-ledger",
+   "url": "https://github.com/kayyoo-naru/jev-ledger",
+   "desc": "Personal financial statements classified by TypeSafe\u2019s Jev, with auditor-style controls *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "kayyoo-naru/jev-ledger",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "arckhe-decisions-jev",
+   "url": "https://github.com/linnoff88-dev/arckhe-decisions-jev",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "linnoff88-dev/arckhe-decisions-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "lwc-hoa-qa",
+   "url": "https://github.com/lostcol0ny/lwc-hoa-qa",
+   "desc": "Q&A over Lakewood Creek HOA documents with cited answers (Jev retrieval + LLM answer + citation verification) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "lostcol0ny/lwc-hoa-qa",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "pi-browser",
+   "url": "https://github.com/matt-riley/pi-browser",
+   "desc": "A DOM-first Chrome companion for Pi with persistent pairing, policy-controlled browsing, and Jev-guided actions *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "matt-riley/pi-browser",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "jev-inference-opt",
+   "url": "https://github.com/qpitawat/jev-inference-opt",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "qpitawat/jev-inference-opt",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "typesafe-ruby",
+   "url": "https://github.com/revans/typesafe-ruby",
+   "desc": "Ruby client for TypeSafe's System One API (Jev) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "revans/typesafe-ruby",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "StudyWhisper",
+   "url": "https://github.com/rnahumaf/StudyWhisper",
+   "desc": "Assistente de estudo Windows: escuta paus\u00e1vel, triagem textual JEV e respostas em texto. MIT *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "rnahumaf/StudyWhisper",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "opencode-decision-models",
+   "url": "https://github.com/third774/opencode-decision-models",
+   "desc": "OpenCode plugin that exposes System One decision models (Clef, Jev, Gemini Decision) as Code Mode tools *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "third774/opencode-decision-models",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
+  },
+  {
+   "name": "anima3",
+   "url": "https://github.com/uotavern/anima3",
+   "desc": "Anima v3 \u2014 a thin System-One brain (Qwen logprob + Laya triage + LLM) driving anima-client; economy, combat, and skill progression on ServUO *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "uotavern/anima3",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-20"
   }
  ],
  "meta": {
-  "audited": "2026-11-19",
+  "audited": "2026-11-20",
   "source_lists": 9,
   "source_list_urls": [
    "[yibie/awesome-jev](https://github.com/yibie/awesome-jev)",
@@ -102208,6 +102699,6 @@
    "[madewithjev.com](https://madewithjev.com) (community directory, cross-referenced)"
   ],
   "method": "Entries merged from the source lists above, deduplicated by normalised URL. Every GitHub repository README fetched directly from raw.githubusercontent.com to check link liveness and Jev evidence. Screenshots captured live in a real browser.",
-  "last_discovery": "2026-11-19"
+  "last_discovery": "2026-11-20"
  }
 }
