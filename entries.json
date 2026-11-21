@@ -69458,11 +69458,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-27"
   },
@@ -80954,11 +80952,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-04"
   },
@@ -80972,8 +80968,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-04"
@@ -85422,7 +85418,7 @@
    "discovered": "2026-11-07"
   },
   {
-   "name": "augur",
+   "name": "augur (neostryder)",
    "url": "https://github.com/neostryder/augur",
    "desc": "AI plan usage and credit balances in your tray and on your phone: Claude, ChatGPT/Codex, Grok, MiniMax, OpenRouter, fal and Jev *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -98330,8 +98326,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-17"
@@ -98346,11 +98342,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "noul"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-17"
   },
@@ -98364,11 +98358,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-17"
   },
@@ -98382,13 +98374,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-17"
   },
@@ -98402,11 +98390,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-17"
   },
@@ -101829,6 +101815,7 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
+    "boolean",
     "choice",
     "noul",
     "score"
@@ -103668,8 +103655,7 @@
    "link_status": "ok",
    "evidence": "none",
    "primitives": [
-    "choice",
-    "score"
+    "choice"
    ],
    "extra_links": [],
    "discovered": "2026-11-21"
@@ -104172,6 +104158,387 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "AgentCompass-Router",
+   "url": "https://github.com/akiiwa-games/AgentCompass-Router",
+   "desc": "Multi-agent task router & subscription quota scheduler for Claude Code, Codex CLI, Gemini / Antigravity, OpenCode, Pi & Paseo. Routes sub-agents by capability fit & 5h/7d rate-limit windows with a PreToolUse spawn gate *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "akiiwa-games/AgentCompass-Router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "docfriction",
+   "url": "https://github.com/cyruspastelero/docfriction",
+   "desc": "Automated friction logs for online documentation, scored section by section with TypeSafe Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "cyruspastelero/docfriction",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "eidos-smart-actions-plugin",
+   "url": "https://github.com/eidos-space/eidos-smart-actions-plugin",
+   "desc": "Jev-powered classification, scoring and actions for Eidos Lite *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "eidos-space/eidos-smart-actions-plugin",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jev-lint",
+   "url": "https://github.com/schalkneethling/jev-lint",
+   "desc": "An experiment with semantic code linting using Jev from TypeSafe AI *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "schalkneethling/jev-lint",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "augur (JACK-COM)",
+   "url": "https://github.com/JACK-COM/augur",
+   "desc": "Augur (by JACKCOM) is a normalized CLI for working with calibrated decision models. Ask yes-or-no, choice, or score questions, and calibrate thresholds to your own examples. Supports Jev and Laya out of the box *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "JACK-COM/augur",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "XKS_Jev-like_Model_Base",
+   "url": "https://github.com/Lasimeri/XKS_Jev-like_Model_Base",
+   "desc": "Jev-like typed judgments (noul / choice / score) from a local LLM's next-token distribution, on the CPU: Rust + llama.cpp (AVX2/FMA), TUI, System One HTTP; byte-identical to Intel-Phi-Jev's xks *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Lasimeri/XKS_Jev-like_Model_Base",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "xks-toolintercept-folder_mngmt",
+   "url": "https://github.com/Lasimeri/xks-toolintercept-folder_mngmt",
+   "desc": "Folder and naming decisions for coding agents, asked of a Jev-like model by a fixed standard (xks-folder/1): MCP server and Claude Code hook over any System One server *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Lasimeri/xks-toolintercept-folder_mngmt",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "NewJev",
+   "url": "https://github.com/Royarind/NewJev",
+   "desc": "Computer Use Agent powered by Jev decision model - no vision LLM required *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Royarind/NewJev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "ToolDiscoveryBench",
+   "url": "https://github.com/SarathChandraBellam/ToolDiscoveryBench",
+   "desc": "Benchmark for MCP tool discovery: how accurately, fast and cheaply decision models (Jev, GPT-6 Luna), embeddings and BM25 pick the right tool, or abstain when none fits *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "SarathChandraBellam/ToolDiscoveryBench",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jev-vs-llm-ticket-router",
+   "url": "https://github.com/SarathChandraBellam/jev-vs-llm-ticket-router",
+   "desc": "Benchmark: TypeSafe Jev vs traditional LLM on support-ticket routing accuracy, latency, and cost *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "SarathChandraBellam/jev-vs-llm-ticket-router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "plasticitree",
+   "url": "https://github.com/brandonyuanCS/plasticitree",
+   "desc": "An LSM-tree storage engine with indexing policies tuned by Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "brandonyuanCS/plasticitree",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "llm-jev-engine",
+   "url": "https://github.com/cayoesn/llm-jev-engine",
+   "desc": "System-1 Non-Autoregressive Single-Pass Neural Decision Engine with RLCD Calibration, Choice/Noul/Score Primitives & JevEval *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "cayoesn/llm-jev-engine",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jev-router",
+   "url": "https://github.com/fstandhartinger/jev-router",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "fstandhartinger/jev-router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "who-is-right",
+   "url": "https://github.com/fstandhartinger/who-is-right",
+   "desc": "Comic realtime argument fact-check party demo using Gemini Live and Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "fstandhartinger/who-is-right",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "Speculative-Execution-in-Compound-AI-Systems",
+   "url": "https://github.com/hasini-070105/Speculative-Execution-in-Compound-AI-Systems",
+   "desc": "Speculative AI routing gateway using a calibrated DeBERTa-v3-small System-1 gate and Jev primitives (Choice, Noul, Score) to replace sequential LLM chains *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "hasini-070105/Speculative-Execution-in-Compound-AI-Systems",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "ai-accelerator-research-wiki",
+   "url": "https://github.com/luckymsk/ai-accelerator-research-wiki",
+   "desc": "A living research wiki on AI accelerator architectures: normalized throughput reference + a lab of 940 first-principles architecture proposals, Jev-gated *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "luckymsk/ai-accelerator-research-wiki",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "J2-Stack",
+   "url": "https://github.com/ontop01970/J2-Stack",
+   "desc": "Local Memory That Doesn't Eat Your Context Window *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ontop01970/J2-Stack",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jev-or-not",
+   "url": "https://github.com/rlorenzo/jev-or-not",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "rlorenzo/jev-or-not",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "no-drama-llama",
+   "url": "https://github.com/singerbj/no-drama-llama",
+   "desc": "Turn your Windows gaming PC into an always-on local LLM server that gets out of the way when you play. Runs llama.cpp with a model sized to your GPU, then pauses it automatically when a game launches so the game gets all your VRAM. Tray app, OpenAI-compatible API, auto-updates *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "singerbj/no-drama-llama",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "agentpad",
+   "url": "https://github.com/vitalititas/agentpad",
+   "desc": "Xbox-style controller CLI for Linux agents. Use AgentPad for direct, timed input and replay. Planned AgentPad Reflex adds Jev-assisted play while the main agent plans its next move *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "vitalititas/agentpad",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "llama.cpp-jev-adapter",
+   "url": "https://github.com/xiaocongyu66/llama.cpp-jev-adapter",
+   "desc": "Native llama.cpp support for JoyFox JEV decision models *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "xiaocongyu66/llama.cpp-jev-adapter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
    "extra_links": [],
    "discovered": "2026-11-21"
   }
