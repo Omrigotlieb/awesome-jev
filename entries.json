@@ -43290,7 +43290,8 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "choice"
+    "choice",
+    "score"
    ],
    "extra_links": [],
    "discovered": "2026-10-08"
@@ -65782,8 +65783,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "dead",
-   "evidence": "unchecked",
+   "link_status": "ok",
+   "evidence": "mentions",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-24"
@@ -74053,7 +74054,10 @@
    ],
    "link_status": "ok",
    "evidence": "none",
-   "primitives": [],
+   "primitives": [
+    "choice",
+    "score"
+   ],
    "extra_links": [],
    "discovered": "2026-10-30"
   },
@@ -79545,7 +79549,9 @@
    ],
    "link_status": "ok",
    "evidence": "none",
-   "primitives": [],
+   "primitives": [
+    "choice"
+   ],
    "extra_links": [],
    "discovered": "2026-11-03"
   },
@@ -83625,13 +83631,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-06"
   },
@@ -92543,7 +92545,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "mentions",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-12"
@@ -99051,7 +99053,7 @@
    "discovered": "2026-11-17"
   },
   {
-   "name": "system-one-model",
+   "name": "system-one-model (SodaZheng)",
    "url": "https://github.com/SodaZheng/system-one-model",
    "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -100981,9 +100983,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-19"
   },
@@ -103313,10 +103313,319 @@
    ],
    "extra_links": [],
    "discovered": "2026-11-20"
+  },
+  {
+   "name": "graph-memory-system-one-demo",
+   "url": "https://github.com/zach-blumenfeld/graph-memory-system-one-demo",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zach-blumenfeld/graph-memory-system-one-demo",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "vercel-ai-gateway-api-client",
+   "url": "https://github.com/TypeDuelistPath/vercel-ai-gateway-api-client",
+   "desc": "Vercel AI Gateway API Client is a unified routing utility designed for multi-provider model requests, fallback handling, token tracking, and streaming responses through Vercel AI Gateway. Developers utilize this client to switch LLM providers seamlessly, centralize API keys, and maintain reliable AI integrations efficiently *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "TypeDuelistPath/vercel-ai-gateway-api-client",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "aerojev",
+   "url": "https://github.com/0sparsh2/aerojev",
+   "desc": "Jev-style decision model on CPU (Qwen 0.5-0.6B + LoRA) for aerospace supply-chain triage: synthetic data, gold sets, training, evals, latency benchmarks *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "0sparsh2/aerojev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "MacOS_Gaze_Voice_CUA_v1",
+   "url": "https://github.com/HunchoBarney/MacOS_Gaze_Voice_CUA_v1",
+   "desc": "Jarvis macOS voice and Cua/Jev migration \u2014 development checkpoint *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "HunchoBarney/MacOS_Gaze_Voice_CUA_v1",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "system-one-model (MKDYasserH)",
+   "url": "https://github.com/MKDYasserH/system-one-model",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "MKDYasserH/system-one-model",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "EEG-Jev",
+   "url": "https://github.com/NeuroImgLab/EEG-Jev",
+   "desc": "EEG-Jev: A Unified Single-Pass Decision Model for EEG \u2014 Interactive Demo & Aggregate Results *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "NeuroImgLab/EEG-Jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "Sycophancy-System-One-Models",
+   "url": "https://github.com/TomatenMarc/Sycophancy-System-One-Models",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "TomatenMarc/Sycophancy-System-One-Models",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jev",
+   "url": "https://github.com/charles161/jev",
+   "desc": "Jev: AI collaborative whiteboard (Excalidraw-style), built with Gemini 4 Neon *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "charles161/jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "labs.demo.jev",
+   "url": "https://github.com/frostaura/labs.demo.jev",
+   "desc": "Everything is a classification problem \u2014 a live slideshow demo of classic ML vs the Jev decision model *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "frostaura/labs.demo.jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "chat-reading-bandit",
+   "url": "https://github.com/gioamorim80/chat-reading-bandit",
+   "desc": "Does reading the chat help a bandit pick store offers? Simulated shoppers, LLM-written chats, JEV readings, Thompson sampling *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gioamorim80/chat-reading-bandit",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "systemone (gvcoder)",
+   "url": "https://github.com/gvcoder/systemone",
+   "desc": "This Repo is to experiment multi-agent applications *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gvcoder/systemone",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "astrbot_plugin_krypton",
+   "url": "https://github.com/nagatoquin33/astrbot_plugin_krypton",
+   "desc": "AstrBot \u4f1a\u8bdd\u67e5\u8be2\u3001\u7fa4\u6d3b\u52a8\u611f\u77e5\u3001\u539f\u751f\u8de8\u4f1a\u8bdd\u672a\u6765\u4efb\u52a1\u589e\u5f3a\u4e0e\u53ef\u9009 JEV \u7fa4\u804a\u53c2\u4e0e\u5224\u65ad *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "nagatoquin33/astrbot_plugin_krypton",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "system-one (nipunbatra)",
+   "url": "https://github.com/nipunbatra/system-one",
+   "desc": "Lecture: System 1 models (decision models such as Jev). Slides and Colab notebooks *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "nipunbatra/system-one",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jevbrev",
+   "url": "https://github.com/parker-brown-family/jevbrev",
+   "desc": "Short API definitions that code turns into Jev (TypeSafe System One) questions, answer readers and HTTP calls *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "parker-brown-family/jevbrev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "PinkRooster.ProviderConfig",
+   "url": "https://github.com/pinkroosterai/PinkRooster.ProviderConfig",
+   "desc": "Configure AI providers (OpenAI, Anthropic, Jev System One) by ID and get ready clients through Microsoft.Extensions.AI and DI *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "pinkroosterai/PinkRooster.ProviderConfig",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jev-agent-skills",
+   "url": "https://github.com/siso-os/jev-agent-skills",
+   "desc": "A conservative second opinion for your agent: intent, completion, routing and browser judgment as portable skills *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "siso-os/jev-agent-skills",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "moyu-agent-workbench",
+   "url": "https://github.com/starve001/moyu-agent-workbench",
+   "desc": "\u6478\u9c7cAgent\u5de5\u4f5c\u53f0 - \u672c\u5730\u5b66\u751f Agent \u5de5\u4f5c\u53f0: jev \u51b3\u7b56/\u5237\u8bfe/\u4f5c\u4e1a/\u7ade\u8d5b/\u8bfe\u7a0b\u8868, fill-only + \u4e24\u9053\u8be2\u95ee\u95e8\u7981, \u96f6\u4f9d\u8d56 Node *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "starve001/moyu-agent-workbench",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-21"
+  },
+  {
+   "name": "jev-ad-website",
+   "url": "https://github.com/ys-qu/jev-ad-website",
+   "desc": "Project page for \"Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model\" *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ys-qu/jev-ad-website",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-21"
   }
  ],
  "meta": {
-  "audited": "2026-11-20",
+  "audited": "2026-11-21",
   "source_lists": 9,
   "source_list_urls": [
    "[yibie/awesome-jev](https://github.com/yibie/awesome-jev)",
@@ -103331,6 +103640,6 @@
    "[madewithjev.com](https://madewithjev.com) (community directory, cross-referenced)"
   ],
   "method": "Entries merged from the source lists above, deduplicated by normalised URL. Every GitHub repository README fetched directly from raw.githubusercontent.com to check link liveness and Jev evidence. Screenshots captured live in a real browser.",
-  "last_discovery": "2026-11-20"
+  "last_discovery": "2026-11-21"
  }
 }
