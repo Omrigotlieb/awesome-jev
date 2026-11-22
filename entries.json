@@ -41874,7 +41874,7 @@
    "discovered": "2026-10-07"
   },
   {
-   "name": "JEV-LLM",
+   "name": "JEV-LLM (Ernestosant)",
    "url": "https://github.com/Ernestosant/JEV-LLM",
    "desc": "Pequena prueba de concepto de seleccion de soluciones con Qwen3.5 y JevK5: resultados, limitaciones y trabajo futuro *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -61840,7 +61840,7 @@
    "discovered": "2026-10-21"
   },
   {
-   "name": "jev-vs-claude",
+   "name": "jev-vs-claude (TubaAli)",
    "url": "https://github.com/TubaAli/jev-vs-claude",
    "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -83667,7 +83667,7 @@
    "discovered": "2026-11-06"
   },
   {
-   "name": "system-one-from-scratch",
+   "name": "system-one-from-scratch (VizuaraAI)",
    "url": "https://github.com/VizuaraAI/system-one-from-scratch",
    "desc": "Rebuild of CLM-8B, an open System One model, for a live workshop: training pipeline, measured results and playable demos *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -85718,7 +85718,7 @@
    "discovered": "2026-11-07"
   },
   {
-   "name": "reflex",
+   "name": "reflex (Starttoaster)",
    "url": "https://github.com/Starttoaster/reflex",
    "desc": "Lab project: route Alertmanager alerts to urgent or informational Discord channels using TypeSafe's Jev model, with label-based fallback *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -93409,9 +93409,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-13"
   },
@@ -101570,8 +101568,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-19"
@@ -103416,7 +103414,7 @@
    "discovered": "2026-11-21"
   },
   {
-   "name": "jev",
+   "name": "jev (charles161)",
    "url": "https://github.com/charles161/jev",
    "desc": "Jev: AI collaborative whiteboard (Excalidraw-style), built with Gemini 4 Neon *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -105146,6 +105144,352 @@
    "link_status": "ok",
    "evidence": "mentions",
    "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "reflexbench",
+   "url": "https://github.com/brida-ai/reflexbench",
+   "desc": "ReflexBench \u2014 open benchmark and evaluation harness for System One models and typed decision engines *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "brida-ai/reflexbench",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "reflex (brida-ai)",
+   "url": "https://github.com/brida-ai/reflex",
+   "desc": "Open schemas, recipes, templates, examples and agent tooling for Brida Reflex *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "brida-ai/reflex",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "sdk",
+   "url": "https://github.com/brida-ai/sdk",
+   "desc": "Official TypeScript SDK for the Brida platform *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "brida-ai/sdk",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "jevmail",
+   "url": "https://github.com/hwong103/jevmail",
+   "desc": "Self-hostable Gmail triage with Jev classification \u2014 read-only prototype on synthetic fixtures (Cloudflare Worker + D1 + React PWA) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "hwong103/jevmail",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "minecraft-companion-bot",
+   "url": "https://github.com/slime12122005-max/minecraft-companion-bot",
+   "desc": "Minecraft Java 1.21.1 companion bot: Antigravity MCP main brain, Jev fast tactical support, MotorHumanizer, survival, crafting, building & dashboard *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "slime12122005-max/minecraft-companion-bot",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "jev-vs-claude (AbdullahAbdelKhalek)",
+   "url": "https://github.com/AbdullahAbdelKhalek/jev-vs-claude",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AbdullahAbdelKhalek/jev-vs-claude",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "systemone",
+   "url": "https://github.com/AvikArefin/systemone",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "AvikArefin/systemone",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "jev (Dct555)",
+   "url": "https://github.com/Dct555/jev",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Dct555/jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "whk-jev-analysis",
+   "url": "https://github.com/Der-Klumpen/whk-jev-analysis",
+   "desc": "Jev 1.14 Item-Existenz auf Reifenpanoramen (VW/4W OCR-Testsubset): Katalog, GT, Kachelung, L\u00e4ufe, Auswertung *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Der-Klumpen/whk-jev-analysis",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "SOMe-Agents",
+   "url": "https://github.com/SebastianDrako/SOMe-Agents",
+   "desc": "System One Model Agents (SOMe Agents) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "SebastianDrako/SOMe-Agents",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "quetzal-seo-audit-skill",
+   "url": "https://github.com/Svrubio7/quetzal-seo-audit-skill",
+   "desc": "Open-source SEO & AI-search (AEO) audit skill for Claude Code, Antigravity & Cursor \u2014 11 zero-dep Node scripts, OWN/CLAIM/EARN/CONTEST framework, lost-answer source reader & Jev decision layer. By Quetzal *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Svrubio7/quetzal-seo-audit-skill",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "JEV-LLM (SwastikMethi)",
+   "url": "https://github.com/SwastikMethi/JEV-LLM",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "SwastikMethi/JEV-LLM",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "typesafe-jev-workflows",
+   "url": "https://github.com/chaitanya-y/typesafe-jev-workflows",
+   "desc": "32 compact TypeSafe Jev workflow examples in a local app, with editable inputs, typed judgments, decision rules and tests *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "chaitanya-y/typesafe-jev-workflows",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "recalibench",
+   "url": "https://github.com/dagap/recalibench",
+   "desc": "Is your AI's confidence honest? Calibration benchmark & toolkit, tested live on TypeSafe's Jev LLM API: cuts confidence error 3-20x with post-hoc calibration on a small labelled sample, no retraining. Bootstrap CIs, HTML report, Streamlit app *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "dagap/recalibench",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "intents",
+   "url": "https://github.com/ezeike/intents",
+   "desc": "Routing free-text input to app actions via Laya/Jev-class decision models instead of an LLM tool-calling loop *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ezeike/intents",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "harness-reflex",
+   "url": "https://github.com/miuzel/harness-reflex",
+   "desc": "System One decision runtime for DeepSeek Harness: an MCP server and a DSH host plugin with automatic pruning, stagnation breaking and completion gates *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "miuzel/harness-reflex",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "system-one-router",
+   "url": "https://github.com/seberatolmez/system-one-router",
+   "desc": "A production-grade LLM router powered by Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "seberatolmez/system-one-router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "system-one-from-scratch (sourav-dhar)",
+   "url": "https://github.com/sourav-dhar/system-one-from-scratch",
+   "desc": "A System One decision model built from scratch: frozen LLM features + contrastive heads -> calibrated option probabilities in one pass. Reproduction, ablations and research on the CLM recipe *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "sourav-dhar/system-one-from-scratch",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-22"
+  },
+  {
+   "name": "tierwise",
+   "url": "https://github.com/tomhar92/tierwise",
+   "desc": "Cache-aware, TypeSafe-driven model tier router for Claude Code *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "tomhar92/tierwise",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
    "extra_links": [],
    "discovered": "2026-11-22"
   }
