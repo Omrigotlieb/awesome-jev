@@ -27855,7 +27855,9 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "score"
+   ],
    "extra_links": [],
    "discovered": "2026-09-28"
   },
@@ -42814,7 +42816,8 @@
    "evidence": "strong",
    "primitives": [
     "choice",
-    "noul"
+    "noul",
+    "score"
    ],
    "extra_links": [],
    "discovered": "2026-10-08"
@@ -71975,9 +71978,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-29"
   },
@@ -80344,7 +80345,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
+   "evidence": "strong",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-03"
@@ -86579,8 +86580,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-08"
@@ -92138,8 +92139,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "dead",
-   "evidence": "unchecked",
+   "link_status": "ok",
+   "evidence": "mentions",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-12"
@@ -93888,8 +93889,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "none",
+   "link_status": "dead",
+   "evidence": "unchecked",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-13"
@@ -95508,7 +95509,10 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "choice",
+    "score"
+   ],
    "extra_links": [],
    "discovered": "2026-11-14"
   },
@@ -98950,8 +98954,11 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [],
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
    "extra_links": [],
    "discovered": "2026-11-17"
   },
@@ -103642,7 +103649,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
+   "evidence": "strong",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-21"
@@ -104699,9 +104706,7 @@
    ],
    "link_status": "ok",
    "evidence": "mentions",
-   "primitives": [
-    "score"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-22"
   },
@@ -105682,11 +105687,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-23"
   },
@@ -105865,11 +105866,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-23"
   },
@@ -106443,11 +106442,8 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "boolean",
-    "choice"
-   ],
+   "evidence": "none",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-24"
   },
@@ -106499,7 +106495,9 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [],
+   "primitives": [
+    "choice"
+   ],
    "extra_links": [],
    "discovered": "2026-11-24"
   },
@@ -106839,6 +106837,449 @@
    "primitives": [
     "choice"
    ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "cognitive-fabric",
+   "url": "https://github.com/DrapNard/cognitive-fabric",
+   "desc": "A model-agnostic, neuro-symbolic cognitive runtime built in Rust. Two cooperating cognitive systems, interchangeable decision and reasoning models, resource-aware execution, and adaptive cognitive expansion through specialized sub-models *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "DrapNard/cognitive-fabric",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "AI-Router",
+   "url": "https://github.com/Valgorithms/AI-Router",
+   "desc": "ReactPHP local-first AI model router: tries a local Ollama model first and falls back to Claude, OpenAI and the Copilot CLI, with optional Jev routing and evaluation. Ships a CLI and an OpenAI-compatible HTTP endpoint *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Valgorithms/AI-Router",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "bzp-classification-jev-like",
+   "url": "https://github.com/Chansokheang/bzp-classification-jev-like",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Chansokheang/bzp-classification-jev-like",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "gemini-codex-jev",
+   "url": "https://github.com/Howardyh/gemini-codex-jev",
+   "desc": "Antigravity plugin bridging Gemini thinking, TypeSafe Jev System-1 calibrated judgment gates, and OpenAI Codex CLI sandbox execution & subagents *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Howardyh/gemini-codex-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "AlithesOracle",
+   "url": "https://github.com/LinearRecession/AlithesOracle",
+   "desc": "Automated, auditable real-world event verification powered by independent news coverage and JEV *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "LinearRecession/AlithesOracle",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "jev-Rec",
+   "url": "https://github.com/Willowch/jev-Rec",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Willowch/jev-Rec",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "qorx-jev-source-check",
+   "url": "https://github.com/bbrainfuckk/qorx-jev-source-check",
+   "desc": "A local Qorx + Jev source evidence exercise with two pinned FastAPI excerpts, inspectable requests and an optional Python runner *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "bbrainfuckk/qorx-jev-source-check",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "hospital-delivery-robot",
+   "url": "https://github.com/bouncypitch/hospital-delivery-robot",
+   "desc": "JevBOT Rx: a hospital delivery robot that decides in milliseconds. Jev vs an off-the-shelf LLM, side by side. Built at JEVATHON SF 2026 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "bouncypitch/hospital-delivery-robot",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "decision-playwright",
+   "url": "https://github.com/cheolmin/decision-playwright",
+   "desc": "Playwright browser skill for GitHub Copilot CLI and Claude Code. Microsoft-Decision-1.1/Jev drives clicks; the host agent types *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "cheolmin/decision-playwright",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "jev-presentation-bias",
+   "url": "https://github.com/coltranetorres/jev-presentation-bias",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "coltranetorres/jev-presentation-bias",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "comment-philosophy-lint",
+   "url": "https://github.com/cou723/comment-philosophy-lint",
+   "desc": "\u30b3\u30e1\u30f3\u30c8\u306b\u66f8\u304f\u3079\u304d\u3053\u3068\u30fb\u66f8\u304f\u3079\u304d\u3067\u306a\u3044\u3053\u3068\u3092\u3001jev-lint \u3068\u6c7a\u5b9a\u30e2\u30c7\u30eb\uff08d1-3B \u306a\u3069\uff09\u3067\u78ba\u304b\u3081\u308b\u30eb\u30fc\u30eb\u96c6 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "cou723/comment-philosophy-lint",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "mk--JEV-AI- (fdsfserrrr)",
+   "url": "https://github.com/fdsfserrrr/mk--JEV-AI-",
+   "desc": "\u83b7\u8bfe\uff1ajzit.top/26594/mk\u7f51-JEV \u51b3\u7b56\u5927\u6a21\u578b\u5b9e\u6218\uff0c\u8ba9 AI \u4ece\u4f1a\u804a\u5929\u5230\u80fd\u51b3\u7b56 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "fdsfserrrr/mk--JEV-AI-",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "cc-jev-routing",
+   "url": "https://github.com/harry18456/cc-jev-routing",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "harry18456/cc-jev-routing",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "dialogue-grounding",
+   "url": "https://github.com/kame447/dialogue-grounding",
+   "desc": "Design repository for a Jev-assisted dialogue annotation pipeline *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "kame447/dialogue-grounding",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "Sample-for-TypeSafe",
+   "url": "https://github.com/lostcosmonaut96/Sample-for-TypeSafe",
+   "desc": "Decompiled malware samples and general pipeline for Jev model *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "lostcosmonaut96/Sample-for-TypeSafe",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "rvc-work-arrangement-benchmark",
+   "url": "https://github.com/maketeamake/rvc-work-arrangement-benchmark",
+   "desc": "RVC work-arrangement labels on 200 job postings: Jev 1.14 vs Claude Haiku 5.5 vs GPT-6 Luna. Sample, Opus reference labels, every model answer, scoring script, frozen hashes *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "maketeamake/rvc-work-arrangement-benchmark",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "system-one-agents",
+   "url": "https://github.com/manas-ml/system-one-agents",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "manas-ml/system-one-agents",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "cry-agent",
+   "url": "https://github.com/muyangtangqq-oss/cry-agent",
+   "desc": "Agentic baby cry cause diagnosis with multimodal signal fusion, layered judgment (Tachyone \u2192 Jev), and self-learning. Audio + vision + context + env sensors *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "muyangtangqq-oss/cry-agent",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "typesafe-go",
+   "url": "https://github.com/northpolesec/typesafe-go",
+   "desc": "Go client for the TypeSafe AI System One API *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "northpolesec/typesafe-go",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "jev-flashcards-api",
+   "url": "https://github.com/pedrovgo/jev-flashcards-api",
+   "desc": "A REST API for creating decks and flashcards, and reviewing answers with spaced repetition (FSRS). During a review, the answer is evaluated semantically by the model configured in OpenRouter; the resulting score determines the rating used by FSRS *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "pedrovgo/jev-flashcards-api",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "llm-vs-jev",
+   "url": "https://github.com/rszilagyi101/llm-vs-jev",
+   "desc": "Local LLM vs Jev-style decisions (classroom demo) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "rszilagyi101/llm-vs-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "jevharness-preset",
+   "url": "https://github.com/sjzjams/jevharness-preset",
+   "desc": "DeepSeek Harness \u53ef\u6267\u884c\u63d2\u4ef6\u67b6\u6784\u7684 Agent \u9884\u8bbe\u3002 \u901a\u8fc7\u6309\u4f1a\u8bdd\u4e25\u683c\u9694\u79bb\u7684\u663e\u5f0f\u7c7b\u578b\u5316\u72b6\u6001\u8d26\u672c\uff0c\u5728\u6bcf\u6b65\u6a21\u578b\u751f\u6210\u524d\u6279\u91cf\u5411 TypeSafe JeV \u8be2\u95ee Table I \u516d\u5927\u51b3\u7b56\u4e0e per-chunk \u53ef\u89c1\u6027\uff0c\u5e76\u7531\u786e\u5b9a\u6027\u4ee3\u7801\u6267\u884c\u5b89\u5168\u95f8\u95e8\u3001\u6761\u4ef6\u89c4\u5219\u6302\u8f7d\u3001\u5b50\u76ee\u6807\u53bb\u91cd/\u8bfb\u5199\u9501\u4e0e\u5f02\u6b65 JSONL \u53ef\u89c2\u6d4b\u3002 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "sjzjams/jevharness-preset",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "jev-auto-mode",
+   "url": "https://github.com/ttyobiwan/jev-auto-mode",
+   "desc": "Jev-powered auto mode for OpenCode *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ttyobiwan/jev-auto-mode",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "magpie-zenmux",
+   "url": "https://github.com/zghstart/magpie-zenmux",
+   "desc": "Unified ZenMux multimodal provider plugin for Magpie: 257 models across Chat, Responses, Anthropic Messages, Vertex Gemini, 36 image generators, 24 video generators, TTS, ASR, Embeddings, Rerank, System One decisions, OAuth PKCE, Builder Plan & PAYG quotas *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zghstart/magpie-zenmux",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-24"
+  },
+  {
+   "name": "mk--JEV-AI- (zyqzyq18521)",
+   "url": "https://github.com/zyqzyq18521/mk--JEV-AI-",
+   "desc": "\u83b7\u8bfe\uff1ajzit.top/26594/mk\u7f51-JEV \u51b3\u7b56\u5927\u6a21\u578b\u5b9e\u6218\uff0c\u8ba9 AI \u4ece\u4f1a\u804a\u5929\u5230\u80fd\u51b3\u7b56 *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zyqzyq18521/mk--JEV-AI-",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-24"
   }
