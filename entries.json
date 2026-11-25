@@ -66594,9 +66594,7 @@
    ],
    "link_status": "ok",
    "evidence": "strong",
-   "primitives": [
-    "choice"
-   ],
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-25"
   },
@@ -82095,7 +82093,7 @@
    "discovered": "2026-11-05"
   },
   {
-   "name": "JEV-E",
+   "name": "JEV-E (33psilon)",
    "url": "https://github.com/33psilon/JEV-E",
    "desc": "A local-first browser agent for Chromium *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -95526,11 +95524,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-14"
   },
@@ -97753,7 +97749,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "none",
+   "evidence": "mentions",
    "primitives": [
     "choice"
    ],
@@ -104570,7 +104566,7 @@
    "discovered": "2026-11-22"
   },
   {
-   "name": "os1-her",
+   "name": "os1-her (nickvasilescu)",
    "url": "https://github.com/nickvasilescu/os1-her",
    "desc": "A Her-inspired, voice-first personal operating system built on Hermes, Fish Audio Drama 3, LiveKit, Jev, Composio, and Three.js *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -107282,10 +107278,383 @@
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-24"
+  },
+  {
+   "name": "pi-jewter",
+   "url": "https://github.com/bobuk/pi-jewter",
+   "desc": "Role- and tier-aware model routing for the Pi coding agent, powered by Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "bobuk/pi-jewter",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "persuasion-skills",
+   "url": "https://github.com/benjaminjackson/persuasion-skills",
+   "desc": "Claude Code plugin that judges persuasive messages against progressive messaging guidance with TypeSafe Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "benjaminjackson/persuasion-skills",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "JEVe (4i7)",
+   "url": "https://github.com/4i7/JEVe",
+   "desc": "JEV-powered decision architecture for EVE Online *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "4i7/JEVe",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "boolean",
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "don-bot",
+   "url": "https://github.com/aegntic/don-bot",
+   "desc": "Don-Bot \u2014 On-the-Run Dark Factory: local-first autonomous software factory with 1 Lead + 4 worktree specialists, SQLite WAL crash recovery, Rust don-guard, System-One Jev, Telegram 'Me'-Mode, A2UI 1.0 cockpit & Meta-Factory *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "aegntic/don-bot",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "games",
+   "url": "https://github.com/productowner-ro/games",
+   "desc": "Browser games where Jev, the TypeSafe System One model, makes the decisions of the players *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "productowner-ro/games",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "os1-her (Kryckan)",
+   "url": "https://github.com/Kryckan/os1-her",
+   "desc": "A Her-inspired, voice-first personal operating system built on Hermes, Fish Audio Drama 3, LiveKit, Jev, Composio, and Three.js *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Kryckan/os1-her",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "20-questions-workshop",
+   "url": "https://github.com/Rhys-Lindmark/20-questions-workshop",
+   "desc": "Build a 20 Questions player with Jev: one judgment in Jev, the rest in code. Race it against DeepSeek and Sonnet *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Rhys-Lindmark/20-questions-workshop",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "jev-proxy",
+   "url": "https://github.com/Santiago-j-s/jev-proxy",
+   "desc": "Local observability proxy and playground for TypeSafe Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Santiago-j-s/jev-proxy",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "phonebench",
+   "url": "https://github.com/SoulSniper-V2/phonebench",
+   "desc": "Can a decision model drive a real iPhone? Benchmark of Jev, Gemini Decision, Clef and open-weights deciders operating real apps, graded on the phone's final state *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "SoulSniper-V2/phonebench",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "JEV-IDS-Adversarial-2",
+   "url": "https://github.com/Tucelos/JEV-IDS-Adversarial-2",
+   "desc": "La\u00e7o adversarial com agentes (Agno) sobre o Jev IDS *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Tucelos/JEV-IDS-Adversarial-2",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "jev-dataset-studio",
+   "url": "https://github.com/Unjuno/jev-dataset-studio",
+   "desc": "No-code dataset annotation and transformation with Jev: extract, label, validate, and export ML-ready data *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Unjuno/jev-dataset-studio",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "thejevai-com",
+   "url": "https://github.com/api-evangelist/thejevai-com",
+   "desc": "Company profile (portfolio lead) \u2014 Jev AI *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "api-evangelist/thejevai-com",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "jev-rubric-judge",
+   "url": "https://github.com/atoyangeor/jev-rubric-judge",
+   "desc": "Jev answers yes/no rubric questions first, a person answers only the unsure ones: an experiment on InFoBench *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "atoyangeor/jev-rubric-judge",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "jev-ai-qa-observability-suite",
+   "url": "https://github.com/bruno-olivaes/jev-ai-qa-observability-suite",
+   "desc": "AI QA & Observability showcase: JEV System-1 typed classification/calibration/drift, LangGraph retry workflows, DeepEval/RAGAS gates, Arize Phoenix OpenTelemetry, Datadog logs/monitors, Grafana k6 load testing, and GitHub Actions CI *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "bruno-olivaes/jev-ai-qa-observability-suite",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "ultrafast-android-assistant",
+   "url": "https://github.com/doskoi/ultrafast-android-assistant",
+   "desc": "Reusable Jev-guided Android UI assistant built on UIAutomator and guarded ADB execution *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "doskoi/ultrafast-android-assistant",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "webgpu-jev-boids",
+   "url": "https://github.com/electricganesha/webgpu-jev-boids",
+   "desc": "boids implementation with webgpu and jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "electricganesha/webgpu-jev-boids",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "astra-jev-benchmark",
+   "url": "https://github.com/hqvdvn-cmd/astra-jev-benchmark",
+   "desc": "what if i kept u up instead of zelda then? :p *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "hqvdvn-cmd/astra-jev-benchmark",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "hermes-jev-skills-backup",
+   "url": "https://github.com/kvnloo/hermes-jev-skills-backup",
+   "desc": "Detached backup mirror of kerpopule/hermes-jev-skills (not a fork). Default branch _mirror = sync workflow only *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "kvnloo/hermes-jev-skills-backup",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "factorio-jev",
+   "url": "https://github.com/saahityaedams/factorio-jev",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "saahityaedams/factorio-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "masroufi",
+   "url": "https://github.com/wafaa-alhayek/masroufi",
+   "desc": "Expense tracking for Gaza households, built around bank statement exports and their note field. Uses Jev (TypeSafe System One) for typed, confidence-aware transaction categorisation *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "wafaa-alhayek/masroufi",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-25"
+  },
+  {
+   "name": "contextual-guard",
+   "url": "https://github.com/yogur/contextual-guard",
+   "desc": "Contextual authorization for agent actions, powered by system one (decision) models *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "yogur/contextual-guard",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-25"
   }
  ],
  "meta": {
-  "audited": "2026-11-24",
+  "audited": "2026-11-25",
   "source_lists": 9,
   "source_list_urls": [
    "[yibie/awesome-jev](https://github.com/yibie/awesome-jev)",
@@ -107300,6 +107669,6 @@
    "[madewithjev.com](https://madewithjev.com) (community directory, cross-referenced)"
   ],
   "method": "Entries merged from the source lists above, deduplicated by normalised URL. Every GitHub repository README fetched directly from raw.githubusercontent.com to check link liveness and Jev evidence. Screenshots captured live in a real browser.",
-  "last_discovery": "2026-11-24"
+  "last_discovery": "2026-11-25"
  }
 }
