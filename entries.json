@@ -30473,13 +30473,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul",
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-09-30"
   },
@@ -34988,8 +34984,8 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "dead",
-   "evidence": "unchecked",
+   "link_status": "ok",
+   "evidence": "mentions",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-03"
@@ -46697,11 +46693,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "score"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-11"
   },
@@ -77032,7 +77026,7 @@
    "discovered": "2026-11-01"
   },
   {
-   "name": "jev-reranker",
+   "name": "jev-reranker (vkehfdl1)",
    "url": "https://github.com/vkehfdl1/jev-reranker",
    "desc": "Benchmark: decision models (Jev, gpt-6-luna) vs cross-encoder rerankers (Cohere Rerank) on MIRACLReranking and JQaRAReranking: quality, cost, latency. CS410 Technology Review *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -82754,10 +82748,8 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
-   "primitives": [
-    "choice"
-   ],
+   "evidence": "none",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-05"
   },
@@ -97926,7 +97918,7 @@
    "discovered": "2026-11-16"
   },
   {
-   "name": "jev-atlas",
+   "name": "jev-atlas (O8pen)",
    "url": "https://github.com/O8pen/jev-atlas",
    "desc": "Jev Atlas: a wiki-style atlas of everything built with Jev and other decision models *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -98955,12 +98947,9 @@
    "sources": [
     "auto-discovery"
    ],
-   "link_status": "ok",
-   "evidence": "strong",
-   "primitives": [
-    "choice",
-    "noul"
-   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-17"
   },
@@ -101577,7 +101566,7 @@
    "discovered": "2026-11-19"
   },
   {
-   "name": "jev-test",
+   "name": "jev-test (JustinRoderick)",
    "url": "https://github.com/JustinRoderick/jev-test",
    "desc": "Testing typesafe.ai new model Jev *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -108316,10 +108305,326 @@
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-25"
+  },
+  {
+   "name": "prumo",
+   "url": "https://github.com/tardellirs/prumo",
+   "desc": "Prumo: a decision engine with zero learned parameters (Decision Index, public index 20.14). Exact solvers + abstention, deterministic, CPU-only *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "tardellirs/prumo",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev-atlas (ekazakos)",
+   "url": "https://github.com/ekazakos/jev-atlas",
+   "desc": "Jev Atlas: papers, open models, leaderboards and a code audit of Jev-style decision models (Oct 2026) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ekazakos/jev-atlas",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev-reranker (Jingjing5486)",
+   "url": "https://github.com/Jingjing5486/jev-reranker",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Jingjing5486/jev-reranker",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev.system1",
+   "url": "https://github.com/Makspol/jev.system1",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Makspol/jev.system1",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "decora",
+   "url": "https://github.com/Yan-Zero/decora",
+   "desc": "Multi-dialect Rust Decisions protocol gateway unifying OpenAI, Google Gemini, TypeSafe (Jev), and OpenRouter with strict probability verification *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Yan-Zero/decora",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "pi-decision-model",
+   "url": "https://github.com/ahati/pi-decision-model",
+   "desc": "Pi extension: OpenCode Go decision models (jev-1.14, gemini-decision-1, gpt-6-luna-decision) + /decision-model picker with /model UX *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ahati/pi-decision-model",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "teste-anexos-class",
+   "url": "https://github.com/gabsalles/teste-anexos-class",
+   "desc": "Classifica\u00e7\u00e3o de anexos jur\u00eddicos com o Jev (TypeSafe): 256 PDFs de teste, m\u00e9tricas de tempo e custo, proje\u00e7\u00e3o para produ\u00e7\u00e3o *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "gabsalles/teste-anexos-class",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "entityres",
+   "url": "https://github.com/hanzpo/entityres",
+   "desc": "A small jev-powered entity resolution library *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "hanzpo/entityres",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "kblam",
+   "url": "https://github.com/hungryboygeorge/kblam",
+   "desc": "kblam: the knowledge base for LLM-assisted mereology. it's a flat-file research/knowledge storage system with enforced organization (using heuristics, semantic similarity, and Jev evaluation) to prevent document drift, internal contradictions, incorrect data gleaned from reading superseded sections out of context, and other LLM bullshit. not done *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "hungryboygeorge/kblam",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev-case-study",
+   "url": "https://github.com/milo-M4/jev-case-study",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "milo-M4/jev-case-study",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "defraud",
+   "url": "https://github.com/ol1ves/defraud",
+   "desc": "A small fraud detection playground powered by Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ol1ves/defraud",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev-expert",
+   "url": "https://github.com/slashdaemon/jev-expert",
+   "desc": "A Claude Code skill: an authoritative reference for TypeSafe AI's Jev, the \"System One\" model. You send it a state plus typed questions (Choice / Score / Noul) and it returns typed answers with calibrated probabilities. It doesn't generate text.  The skill covers the API contract, primitives, confidence calibration and its quirks, where Jev is weak *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "slashdaemon/jev-expert",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev-mail-triage",
+   "url": "https://github.com/soderlind/jev-mail-triage",
+   "desc": "Local spam and phishing triage for Proton Mail Bridge, powered by TypeSafe Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "soderlind/jev-mail-triage",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jevtest (tranchida)",
+   "url": "https://github.com/tranchida/jevtest",
+   "desc": "Exemple Go : classification premier/second degr\u00e9 avec Jev (TypeSafe) via l'API Decisions d'OpenRouter *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "tranchida/jevtest",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev-sanitizer",
+   "url": "https://github.com/uilhamello/jev-sanitizer",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "uilhamello/jev-sanitizer",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "jev-map-digitizer",
+   "url": "https://github.com/vp717/jev-map-digitizer",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "vp717/jev-map-digitizer",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-26"
+  },
+  {
+   "name": "local-decider",
+   "url": "https://github.com/ziptie-soft/local-decider",
+   "desc": "Let a small local decision model answer routine coding-agent questions (permission prompts, command risk, model routing, turn outcomes) for Paseo, Pi, Claude Code and Codex. Shadow by default, fails open *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ziptie-soft/local-decider",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-26"
   }
  ],
  "meta": {
-  "audited": "2026-11-25",
+  "audited": "2026-11-26",
   "source_lists": 9,
   "source_list_urls": [
    "[yibie/awesome-jev](https://github.com/yibie/awesome-jev)",
@@ -108334,6 +108639,6 @@
    "[madewithjev.com](https://madewithjev.com) (community directory, cross-referenced)"
   ],
   "method": "Entries merged from the source lists above, deduplicated by normalised URL. Every GitHub repository README fetched directly from raw.githubusercontent.com to check link liveness and Jev evidence. Screenshots captured live in a real browser.",
-  "last_discovery": "2026-11-25"
+  "last_discovery": "2026-11-26"
  }
 }
