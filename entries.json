@@ -36111,7 +36111,7 @@
    "discovered": "2026-10-03"
   },
   {
-   "name": "inboxpilot",
+   "name": "inboxpilot (AdityaPagare619)",
    "url": "https://github.com/AdityaPagare619/inboxpilot",
    "desc": "InboxPilot \u2014 confidence-gated small-biz email triage (Jev System-One decision gate) *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -45280,7 +45280,7 @@
    "discovered": "2026-10-10"
   },
   {
-   "name": "jev-dev",
+   "name": "jev-dev (workszop)",
    "url": "https://github.com/workszop/jev-dev",
    "desc": "Jev Router demo: TypeSafe Jev signals route prompts to a local or frontier model (Cloudflare Worker proxy + single-file web app) *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -52182,7 +52182,7 @@
    "discovered": "2026-10-15"
   },
   {
-   "name": "lev",
+   "name": "lev (OpenLAIR)",
    "url": "https://github.com/OpenLAIR/lev",
    "desc": "Lev: Thinking Fast and Deep with Looped Decision Models. One checkpoint, multiple depths: System 1.5 decision models that think in loops, not tokens *(auto-discovered, description not yet written)*",
    "category": "unreviewed",
@@ -75767,7 +75767,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
+   "evidence": "none",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-10-31"
@@ -82465,7 +82465,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "strong",
+   "evidence": "mentions",
    "primitives": [
     "boolean",
     "choice",
@@ -86869,7 +86869,8 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "choice"
+    "choice",
+    "score"
    ],
    "extra_links": [],
    "discovered": "2026-11-08"
@@ -103829,7 +103830,8 @@
    "evidence": "strong",
    "primitives": [
     "choice",
-    "noul"
+    "noul",
+    "score"
    ],
    "extra_links": [],
    "discovered": "2026-11-21"
@@ -109406,7 +109408,10 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "choice"
+    "boolean",
+    "choice",
+    "noul",
+    "score"
    ],
    "extra_links": [],
    "discovered": "2026-11-27"
@@ -110158,7 +110163,6 @@
    "link_status": "ok",
    "evidence": "strong",
    "primitives": [
-    "choice",
     "noul"
    ],
    "extra_links": [],
@@ -110359,7 +110363,7 @@
     "auto-discovery"
    ],
    "link_status": "ok",
-   "evidence": "mentions",
+   "evidence": "none",
    "primitives": [],
    "extra_links": [],
    "discovered": "2026-11-27"
@@ -110419,10 +110423,333 @@
    ],
    "extra_links": [],
    "discovered": "2026-11-27"
+  },
+  {
+   "name": "judged",
+   "url": "https://github.com/fernandoviac/judged",
+   "desc": "Focused terminal interface for typed judgments from TypeSafe System One *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "fernandoviac/judged",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "lev (splunk)",
+   "url": "https://github.com/splunk/lev",
+   "desc": "Lev-3B: an open 3B-parameter System One decision model for log analysis. One pass turns log evidence into structured decisions with probabilities. Open weights, training recipe, and code *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "splunk/lev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "boolean",
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "jev-classifier",
+   "url": "https://github.com/CFdefense/jev-classifier",
+   "desc": "Comparing TypeSafe's Jev to Traditional ML Classification Approaches *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "CFdefense/jev-classifier",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "mailsieve",
+   "url": "https://github.com/JVenberg/mailsieve",
+   "desc": "Gmail inbox triage: Jev (TypeSafe's decision model, via OpenRouter) answers questions about each email; YAML rules label, archive or trash on Cloud Run *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "JVenberg/mailsieve",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "carbon-bouncer",
+   "url": "https://github.com/LarynaB/carbon-bouncer",
+   "desc": "Eco-conscious AI gatekeeper using TypeSafe AI (Jev) + Ollama on Fly.io Sprites *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "LarynaB/carbon-bouncer",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "noul"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "jev-aws",
+   "url": "https://github.com/MaceTenth/jev-aws",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "MaceTenth/jev-aws",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "jev-rl",
+   "url": "https://github.com/Vajraaaang/jev-rl",
+   "desc": "Recovery Lab: Jev-assisted incident recovery agents, local RL training, and reproducible paired evaluation *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "Vajraaaang/jev-rl",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "voice-jev",
+   "url": "https://github.com/alerios/voice-jev",
+   "desc": "Phone conversations driven by audio decision models (Jev-style) instead of a realtime speech LLM: vendor-neutral Decision Engine + smoke benchmark of Gemini Decision, Clef-omni, DuplexJev, Decibel and AudioJev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "alerios/voice-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "agent-eval-core",
+   "url": "https://github.com/ayhanblt/agent-eval-core",
+   "desc": "Reproducible benchmark harness for AI coding agent research (Docker sandbox, Claude/Codex adapters, 2-pass blind Jev judge, bilingual reports) *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "ayhanblt/agent-eval-core",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "ai-resume-screening-system-one-kev",
+   "url": "https://github.com/lmbgithub/ai-resume-screening-system-one-kev",
+   "desc": "Benchmark of Kev System One models against an LLM judge for resume screening: accuracy, non-inferiority and latency. Standard library only, 103 tests *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "lmbgithub/ai-resume-screening-system-one-kev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "none",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "vad-transcribe-match-jev-wired-in",
+   "url": "https://github.com/neopmpmtj/vad-transcribe-match-jev-wired-in",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "neopmpmtj/vad-transcribe-match-jev-wired-in",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "inbox-pilot (rawsab)",
+   "url": "https://github.com/rawsab/inbox-pilot",
+   "desc": "A Jev-gated inbox autopilot that organizes recruiting emails into labels, explains every decision, and requests reviews when necessary *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "rawsab/inbox-pilot",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "dwd-jev",
+   "url": "https://github.com/simplyajay/dwd-jev",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "simplyajay/dwd-jev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "dead",
+   "evidence": "unchecked",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "jev-harness",
+   "url": "https://github.com/slumpsod/jev-harness",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "slumpsod/jev-harness",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "jev-dev (z0rd0n88)",
+   "url": "https://github.com/z0rd0n88/jev-dev",
+   "desc": "Jev experiments, prototypes, and developer tooling *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "z0rd0n88/jev-dev",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "house-intent",
+   "url": "https://github.com/zacharyGoodale/house-intent",
+   "desc": "Voice-command router for Home Assistant, powered by Jev *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zacharyGoodale/house-intent",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "jev-sec-firehose-talk",
+   "url": "https://github.com/zazencodes/jev-sec-firehose-talk",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zazencodes/jev-sec-firehose-talk",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "strong",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-28"
+  },
+  {
+   "name": "jev-embodied",
+   "url": "https://github.com/zyh3699/jev-embodied",
+   "desc": "No description provided by the repository *(auto-discovered, description not yet written)*",
+   "category": "unreviewed",
+   "repo": "zyh3699/jev-embodied",
+   "lists": 0,
+   "sources": [
+    "auto-discovery"
+   ],
+   "link_status": "ok",
+   "evidence": "mentions",
+   "primitives": [],
+   "extra_links": [],
+   "discovered": "2026-11-28"
   }
  ],
  "meta": {
-  "audited": "2026-11-27",
+  "audited": "2026-11-28",
   "source_lists": 9,
   "source_list_urls": [
    "[yibie/awesome-jev](https://github.com/yibie/awesome-jev)",
@@ -110437,6 +110764,6 @@
    "[madewithjev.com](https://madewithjev.com) (community directory, cross-referenced)"
   ],
   "method": "Entries merged from the source lists above, deduplicated by normalised URL. Every GitHub repository README fetched directly from raw.githubusercontent.com to check link liveness and Jev evidence. Screenshots captured live in a real browser.",
-  "last_discovery": "2026-11-27"
+  "last_discovery": "2026-11-28"
  }
 }
